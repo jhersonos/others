@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>actividades</title>
+    <meta content='4' data-name='image-counter'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+</head>
+<body>
+<div class="cabeza" id="cabeza">
+  <nav>
+    <ul>
+      <li class="left">
+        <img src="../logo-de-manki-orange.svg">
+      </li>
+      <li class="manki-name">
+        <a href="#">Manki</a>
+      </li>  
+      <li>
+        <a href="#sectiontext">lifeStyle</a>
+      </li>
+      <li class="menu">
+        <img src="https://cdn4.iconfinder.com/data/icons/flat-black/128/menu.png">
+      </li>
+      <li>
+        <a href="#destinos">Destination</a>
+      </li>
+      <li>
+        <a href="#actividades">Activity</a>
+      </li>
+      <li class="right">sign up</li>
+    </ul>
+  </nav>
+</div>
+<style type="text/css">
+	  .cabeza{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    -webkit-transition: background .8s ease-in-out;
+    -moz-transition: background .8s ease-in-out;
+    -ms-transition: background .8s ease-in-out;
+    -o-transition: background .8s ease-in-out;
+    transition: background .8s ease-in-out;
+  }
+  .cabeza nav{
+    min-height: 58px;
+  }
+  .cabeza nav ul{
+    border-bottom: 1px solid #e6e6e6;
+    height: 58px;
+    margin: 0px 40px;
+    font-size: 0;
+    padding: 0;
+  }
+  .cabeza nav ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 16px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #303030;
+    letter-spacing: 1.2px;
+    padding: 0px 3rem;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+
+  }
+  .cabeza nav ul li a{
+    text-decoration: none;
+    color: #303030;
+  }
+  .cabeza nav ul li.menu{
+    display: none;
+  }
+  .cabeza nav ul li.left{
+    float: left;
+    top: 0 !important;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .cabeza nav ul li.left img{
+    width: 3rem;
+    margin: 5px;
+    height: 3rem;
+    margin-left: -0.2rem;
+  }
+  .cabeza nav ul li.right{
+    float: right;
+    padding: 0;
+    color:#ff480c;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal !important;
+  }
+
+@media only screen and (max-width: 500px) {
+  .cabeza{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+  }
+  .cabeza nav{
+
+  }
+  .cabeza nav ul{
+    border-bottom: 0;
+    height: 58px;
+    margin: 0px 1rem;
+    font-size: 0;
+    padding: 0;
+  }
+  .cabeza nav ul li{
+    list-style: none;
+    display: none;
+    vertical-align: top;
+    position: relative;
+    top: 16px;
+    font-size:16px;
+    color: #303030;
+    padding: 0px 3rem; 
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .cabeza nav ul li.menu{
+    display: inline-block;
+    top: 0;
+    padding: 0;
+  }
+  .cabeza nav ul li.menu img {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0.3rem;
+  }
+  .cabeza nav ul li.left{
+    display: inline-block;
+    float: left;
+    top: 0 !important;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .cabeza nav ul li.left img{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0.3rem;
+  }
+  .cabeza nav ul li.right{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    color:#ff480c;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+}
+</style>
+</body>
+</html>
