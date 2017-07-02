@@ -27,7 +27,7 @@ var exp = new Vue({
 		}
 	}
 })
-
+//exec
 exp.getexperience();
 
 function funx(){
