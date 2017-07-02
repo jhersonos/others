@@ -1,3 +1,4 @@
+//vue
 var exp = new Vue({
 	el:'#cabeza',
 	data:{
