@@ -9,6 +9,9 @@ window.addEventListener('scroll',function(){
 	funx()
 })
 funx()
+setInterval(()=>{
+  $( ".container .mouse" ).toggleClass('bottom');
+},1000)
 /*mobile*/
 $('.actividad-slick').slick({
     dots: false,
