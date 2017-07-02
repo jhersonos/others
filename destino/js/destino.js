@@ -1,22 +1,14 @@
 function funx(){
 if (this.scrollY > 50) {
   document.getElementById('cabeza').classList.add('nav-white');
-  document.getElementById('static').classList.add('top');
 }else{
       document.getElementById('cabeza').classList.remove('nav-white');
-      document.getElementById('static').classList.remove('top');
-    }
-    if (this.scrollY >1100) {
-    	document.getElementById('static').classList.add('bottom');
-    }else{
-    	document.getElementById('static').classList.remove('bottom');
     }
 }
 window.addEventListener('scroll',function(){
 	funx()
 })
 funx()
-
 /*mobile*/
 $('.actividad-slick').slick({
     dots: false,
@@ -76,7 +68,7 @@ $('.actividad-slick').slick({
           arrows: true,
           autoplay:false,
           // slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
         }
       }
     ]
