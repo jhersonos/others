@@ -133,18 +133,27 @@
     <div class="content">
         <div class="row row-md-1">
           <div class="exp">
-<!--             <div class="experiencia"></div>
-            <div class="experiencia"></div>
-            <div class="experiencia"></div>
-            <div class="experiencia"></div> -->
+<!-- <div class="experiencia"></div> -->
           </div>
         </div>
         <div class="row row-md-2">
           <div class="exp">
-<!--             <div class="experiencia"></div>
-            <div class="experiencia"></div>
-            <div class="experiencia"></div>
-            <div class="experiencia"></div> -->
+<!--             <div class="experiencia">
+              <img src="https://store-qp.s3.amazonaws.com/manki/1475363499.">
+              <div class="avatar-box">
+                  <div class="avatar-experiencia">
+                      <img src="">
+                  </div>
+                  <div class="avatar-info">
+                      <div class="name">
+                         jhonatan
+                      </div>
+                      <div class="description">
+                         el mongol
+                      </div>
+                  </div>
+              </div>
+            </div> -->
           </div>
         </div>
     </div>
@@ -174,6 +183,31 @@
     margin: 0;
     padding: 0;
   }
+.avatar-box{
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: -8.5rem;
+}
+.avatar-box .avatar-experiencia{
+    width: 45%;
+    border-radius: 50%;
+    background: white;
+    /*background-image: url(https://cdn1.iconfinder.com/data/icons/animals-18/154/monkey-face-skin-animal-avatar-512.png);*/
+    height: 4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.avatar-box .avatar-experiencia img{
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+}
+.avatar-box .avatar-info{
+  font-family: 'source sans pro';
+  width: 100%;
+}
   .slick-prev:before{
       content:'<';
       color:black;
@@ -256,6 +290,7 @@
   width: 100%;
   height: 50%;
   margin:1rem 0;
+  margin-bottom: 6rem;
 }
 .active-experiences .body .content .row .exp{
   width: 100%;
@@ -269,6 +304,7 @@
     height: 282px;
     display: inline-block;
     margin: 0 1rem;
+    position: relative;
 }
 .active-experiences .body .content .row .exp .experiencia img{
   width: 100%;
@@ -743,6 +779,7 @@
       width: 100%;
       height: 100%;
     }
+
   /*end active experieces*/
   .cabeza{
     width: 100%;

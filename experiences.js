@@ -11,9 +11,11 @@ var exp = new Vue({
 				console.log(self.all)
 				var count = 1;
 				self.all.forEach(function(res){
+				var description = JSON.parse(res.user_description)
 					if (count<=4) {
 						console.log(count)
-						$('.body .content .row-md-1 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
+						$('.body .content .row-md-1 .exp').append("<div class='experiencia'><img src="+res.activity_image+"><div class='avatar-box'>"+
+							"<div class='avatar-experiencia'><img src="+res.user_image+"></div><div class='avatar-info'><div class='name'>"+res.user_name+"</div><div class='description'>"+description[0].ES+"</div></div>")
 					}else if(count>4 && count <9){
 						//$('.body .content .row-md-2 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
 					}else{
