@@ -15,7 +15,7 @@ var exp = new Vue({
 						console.log(count)
 						$('.body .content .row-md-1 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
 					}else if(count>4 && count <9){
-						$('.body .content .row-md-2 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
+						//$('.body .content .row-md-2 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
 					}else{
 						console.log('no hay espacio, has una animacion')
 					}
