@@ -18,19 +18,19 @@
         <img src="logo-de-manki-orange.svg">
       </li>
       <li class="manki-name">
-        <a href="#">Manki</a>
+        <a href="/index/index.html">Manki</a>
       </li>  
       <li>
-        <a href="#sectiontext">lifeStyle</a>
+        <a href="/index/index.html#sectiontext">lifeStyle</a>
       </li>
       <li class="menu">
         <img src="https://cdn4.iconfinder.com/data/icons/flat-black/128/menu.png">
       </li>
       <li>
-        <a href="#destinos">Destination</a>
+        <a href="/index/index.html">Destination</a>
       </li>
       <li>
-        <a href="#actividades">Activity</a>
+        <a href="/index/index.html">Activity</a>
       </li>
       <li class="right">sign up</li>
     </ul>
@@ -62,8 +62,7 @@
 
     </div>
 </div>  
- <!-- end container  -->
- <!-- section text -->
+<!-- section text -->
  <div class="sectiontext opacity-none" id="sectiontext">
     <div>
         Refresh
@@ -73,21 +72,38 @@
     </span>
   </div>
 <!-- end section text -->
+<div class="mankivideo opacity-none" id="mankivideo">
+      <div class="cont">
+          <video controls preload="auto">
+              <source src="http://despega.masco.pe/media/marce2-480.mov" type="video/mp4">
+              <source src="http://despega.masco.pe/media/marce2-480.mov" type="video/ogg">
+              Your browser does not support HTML5 video.
+          </video>
+          <div class="letters">
+              In Peru the wildest landscapes – from frozen Andean peaks to the deep Amazon
+          </div>
+      </div>
+  </div>
+ <!-- end container  -->
 <!-- experiences -->
 <div id="experiences" class="experiences">
     <section class="one">
-      <div class="back-1"></div><div class="text-exp text-left">
-        <div class="contenido">
-          <div class="title-exp">
-            the thrill seeker
-          </div>
-          <div class="content-exp">
-            seeks for activities not many dare to live or experience.
-          </div>
-        </div>
+      <div class="back-container">
+          <div class="back-1"></div>       
+              <div class="text-exp text-left">
+                <div class="contenido">
+                  <div class="title-exp">
+                    the thrill seeker
+                  </div>
+                  <div class="content-exp">
+                    seeks for activities not many dare to live or experience.
+                  </div>
+              </div>
+            </div>
       </div>
     </section>
-    <section class="two">
+     
+    <!-- <section class="two">
       <div class="text-exp text-rigth desktop">
         <div class="contenido">
           <div class="title-exp">
@@ -98,7 +114,7 @@
           </div>
         </div>
       </div><div class="back-2"></div>
-      <!-- mobile -->
+      <!-- mobile 
       <div class="text-exp text-left mobile">
         <div class="contenido">
           <div class="title-exp">
@@ -110,7 +126,7 @@
         </div>
       </div>
       </div>
-    </section>
+    </section> -->
 </div>
 <!-- end experieces -->
 <!-- title -->
@@ -164,7 +180,7 @@
 </div>
 <!-- end active experiences -->
 <!-- footer -->
-<div class="mankifooter">
+<!-- <div class="mankifooter">
     <div class="log">
       <img src="logo-de-manki-orange.svg">
     </div>
@@ -174,7 +190,7 @@
     <div class="manki">
       
     </div>
-</div>
+</div> -->
 <!-- end footer -->
 <style>
   html,body{
@@ -183,18 +199,45 @@
     margin: 0;
     padding: 0;
   }
+  /*video*/
+  /*video*/
+.mankivideo{
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.mankivideo .cont{
+    width: 100%;
+    text-align: center;
+}
+.mankivideo .cont .letters{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-top:0.6rem;
+    color: #505050;
+}
+.mankivideo .cont video{
+    width: 60%;
+    /*height: 635px;*/
+    display: inline-block;
+}
+  /*end video*/
 .avatar-box{
   width: 100%;
   height: 60%;
   position: absolute;
-  bottom: -8.5rem;
+  bottom: -10.5rem;
 }
 .avatar-box .avatar-experiencia{
-    width: 45%;
+    width: 32%;
     border-radius: 50%;
     background: white;
     /*background-image: url(https://cdn1.iconfinder.com/data/icons/animals-18/154/monkey-face-skin-animal-avatar-512.png);*/
-    height: 4rem;
+    height: 37%;
     background-size: 100% 100%;
     display: inline-block;
 }
@@ -207,6 +250,29 @@
 .avatar-box .avatar-info{
   font-family: 'source sans pro';
   width: 100%;
+}
+.avatar-box .avatar-info .name{
+  font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'source sans pro';
+    font-size: .8rem;
+    line-height: 2.26;
+    letter-spacing: 1.5px;
+    text-align: center;
+    top: -0.5rem;
+    position: relative;
+    color: #303030;
+}
+.avatar-box .avatar-info .description{
+  font-family: 'source sans pro';
+    font-size: 0.9rem;
+    font-weight: 300;
+    position: relative;
+    /*line-height: 1.37px;*/
+    text-align: center;
+    letter-spacing: .9px;
+    color: #303030;
+    top: 0.3rem;
 }
   .slick-prev:before{
       content:'<';
@@ -222,11 +288,11 @@
     } 
   .nav-white{
     background-color: white;
-    -webkit-transition: background .8s ease-in-out;
-    -moz-transition: background .8s ease-in-out;
-    -ms-transition: background .8s ease-in-out;
-    -o-transition: background .8s ease-in-out;
-    transition: background .8s ease-in-out;
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    -ms-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
 }
 /*footer*/
 .mankifooter{
@@ -290,7 +356,8 @@
   width: 100%;
   height: 50%;
   margin:1rem 0;
-  margin-bottom: 6rem;
+  /*margin-bottom: 6rem;*/
+  margin-bottom: 13rem;
 }
 .active-experiences .body .content .row .exp{
   width: 100%;
@@ -300,11 +367,39 @@
   margin-right: auto;
 }
 .active-experiences .body .content .row .exp .experiencia{
-    width: 176px;
+    width: 24%;
+    max-width: 250px;
     height: 282px;
+    height: 354px;
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0.55rem;
     position: relative;
+}
+.active-experiences .body .content .row .exp .experiencia .box-img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background:black;
+}
+.active-experiences .body .content .row .exp .experiencia .img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.active-experiences .body .content .row .exp .experiencia .img:after{
+  z-index: -1;
+}
+.active-experiences .body .content .row .exp .experiencia .img:hover{
+    -webkit-transform: perspective(1000px) translate3d(0,0,90px);
+    transform: perspective(1000px) translate3d(0,0,90px);
+    opacity: 0.5;
+    transition: all .3s ease-in-out;
 }
 .active-experiences .body .content .row .exp .experiencia img{
   width: 100%;
@@ -315,6 +410,10 @@
     height: 10%;
     text-align: center;
     color: #ff480c;
+    font-family: 'source sans pro';
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-size:0.9rem;
 }
 .active-experiences .head ul{
   width: 100%;
@@ -326,6 +425,11 @@
   display: inline-block;
   padding: 0 1rem;
   cursor: pointer;
+  font-family: 'source sans pro';
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: .9rem;
 }
 .active-experiences .head ul li.active{
   color: #ff480c;
@@ -335,7 +439,15 @@
 .title-active{
   width: 100%;
   text-align: center;
-  height: 10%;
+  /*height: 10%;*/
+  font-weight: 300;
+  width: 100%;
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
+  font-family: 'source sans pro';
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  letter-spacing: .5px;
 }
 /*end title active*/
 /*experiences*/
@@ -375,31 +487,57 @@
 }
 .experiences section .text-exp .contenido .title-exp{
   text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: .5px;
   font-family: 'source sans pro';
+  font-size: 2rem;
 }
 .experiences section .text-exp .contenido .content-exp{
   font-family: 'source sans pro';
+  font-weight: 300;
+  letter-spacing: .5px;
+  font-size: 1.5rem;
 }
-
-.experiences section .back-1{
-  width: 1011px;
+.experiences section .back-container{
+  width: 100%;
   height: 504px;
-  display: inline-block;
-  margin: 0 1rem;
-  background-image: url('cusco.png');
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  margin-bottom: 7rem;
+  background: black;
+  position:relative;
+}
+.experiences section .back-1{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    /* display: inline-block; */
+    /* margin: 0 1rem; */
+    background-position: center;
+    background-image: url(assets/actividades/Clarity/clarity-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 0rem; */
+    position:relative;
+}
+.experiences section .text-exp{
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  color:white;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 .experiences section .back-2{
   width: 1011px;
   height: 504px;
   display: inline-block;
   margin: 0 1rem;
-  background-image: url('cusco.png');
+  background-image: url('assets/actividades/Clarity/clarity-2.jpg');
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  margin-bottom: 7rem;
+  margin-bottom: 0rem;
 }
 /*end experiences*/
 /*section text */
@@ -438,7 +576,7 @@
 /*end section text*/
 /*container*/
 #b1{
-  background-image: url("background.png");
+  background-image: url("./assets/actividades/Active/surfing.jpg");
 }
 #b2{
   background-image: url("cusco.png");
@@ -459,18 +597,19 @@
   white-space: nowrap;
 }
 .background .content{
+    background-position: center;
     position: relative;
     height:100%;
     width: 100% !important;
-    background-size: 100% 100%;
+    background-size: cover;
     display: inline-block;
     background-repeat: no-repeat;
     margin-right: -4px;
-
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: 70%;
+    /*height: 90vh;*/
     position: relative;
     overflow:hidden;
 }
@@ -483,13 +622,15 @@
     -webkit-transform: translate(-50%, -50%);
 }
 .container .title h1{
-    color:#303030;
+    /*color:#303030;*/
+    color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
 .container .title h2{
-    color:#303030;
+    /*color:#303030;*/
+    color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
@@ -498,6 +639,7 @@
     display: none;
 }
 .container .mouse{
+    display: none;
     text-align: center;
     width: 3rem;
     height: 3rem;
@@ -537,28 +679,38 @@
     position: fixed;
     text-align: center;
     z-index: 2;
-    -webkit-transition: background .8s ease-in-out;
-    -moz-transition: background .8s ease-in-out;
-    -ms-transition: background .8s ease-in-out;
-    -o-transition: background .8s ease-in-out;
-    transition: background .8s ease-in-out;
+    -webkit-transition: background .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out;
+    -ms-transition: background .4s ease-in-out;
+    -o-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
   }
   .cabeza nav{
     min-height: 58px;
   }
   .cabeza nav ul{
-    border-bottom: 1px solid #e6e6e6;
-    height: 58px;
+    border-bottom: .5px solid rgba(225,225,225,.5);
+    height: 75px;
     margin: 0px 40px;
     font-size: 0;
     padding: 0;
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box; 
+  }
+  .black{
+    color:#303030 !important;
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -ms-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
   }
   .cabeza nav ul li{
     list-style: none;
     display: inline-block;
     vertical-align: top;
     position: relative;
-    top: 16px;
+    top: 30px;
     font-size: 16px;
     font-weight: 100;
     color: #303030;
@@ -567,18 +719,18 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     cursor: pointer;
-
   }
   .cabeza nav ul li a{
     text-decoration: none;
-    color: #303030;
+    /*color: #303030;*/
+    color:white;
   }
   .cabeza nav ul li.menu{
     display: none;
   }
   .cabeza nav ul li.left{
     float: left;
-    top: 0 !important;
+    top: 12px !important;
     padding: 0;
     text-transform: uppercase;
   }
@@ -1041,6 +1193,71 @@
     color:#ff480c;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+@media (min-width: 1400px){
+  .sectiontext span{
+    width: 45%;
+  }
+  .active-experiences .body .content .row .exp .experiencia {
+    width: 24%;
+    max-width: 321px;
+    height: 282px;
+    height: 453px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+  .avatar-box{
+    bottom:-13.5rem;
+  }
+  .cabeza nav ul{
+    height: 100%;
+  }
+  .cabeza{
+    height: 7rem;
+    -webkit-transition: height .4s ease-in-out;
+    -moz-transition: height .4s ease-in-out;
+    -ms-transition: height .4s ease-in-out;
+    -o-transition: height .4s ease-in-out;
+    /*transition: height .4s ease-in-out;*/
+  }
+  .nav-height{
+     height: 5rem;
+    -webkit-transition: height .4s ease-in-out;
+    -moz-transition: height .4s ease-in-out;
+    -ms-transition: height .4s ease-in-out;
+    -o-transition: height .4s ease-in-out;
+    /*transition: height .4s ease-in-out;*/
+  }
+  .cabeza nav{
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    transition: top .4s ease-in-out;
+    top: 0rem;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+  .-top{
+    top:-0.8rem !important;
+    transition: all .5s ease-in-out;
+  }
+  .-top ul{
+    border: 0 !important;
+    transition: all .5s ease-in-out;
+  }
+    .nav-white{
+    background-color: white;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
   }
 }
 </style>

@@ -14,8 +14,10 @@ $(document).ready(function(){
           window.addEventListener('scroll',function(){
             if (this.scrollY > 50) {
               document.getElementById('cabeza').classList.add('nav-white');
+              $('.cabeza nav ul li a').addClass('black');
             }else{
               document.getElementById('cabeza').classList.remove('nav-white');
+              $('.cabeza nav ul li a').removeClass('black');
             }
             if(this.scrollY > container){
               document.getElementById('sectiontext').classList.remove('opacity-none')
@@ -42,21 +44,22 @@ $(document).ready(function(){
             }
           })
 
-          var currentPosition = 0
-          var imageCounter= parseInt($("[data-name='image-counter']").attr("content"))
-            setInterval(()=>{
-            if (currentPosition<3){
-              currentPosition++
-            }else{
-              currentPosition=0
-            }
-            $(".background").css({left:"-"+currentPosition*100+"%"})
-          },8000)
+            $(".background > div:gt(0)").hide();
+
+            setInterval(function() {
+              $('.background > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('.background');
+            }, 3000);
 
             setInterval(()=>{
               $( ".container .mouse" ).toggleClass('bottom');
             },1000)
-            $('.slick-art').slick({
+
+            $('.slick-art-mobile').slick({
                 dots: false,
                 arrows: true,
                 infinite: true,
@@ -119,7 +122,7 @@ $(document).ready(function(){
                   }
                 ]
               });
-            $('.actividad-slick').slick({
+            $('.art-mobile').slick({
                 dots: false,
                 arrows: true,
                 infinite: true,

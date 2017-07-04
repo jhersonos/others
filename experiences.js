@@ -15,7 +15,7 @@ var exp = new Vue({
 				var description = JSON.parse(res.user_description)
 					if (count<=4) {
 						console.log(count)
-						$('.body .content .row-md-1 .exp').append("<div class='experiencia'><img src="+res.activity_image+"><div class='avatar-box'>"+
+						$('.body .content .row-md-1 .exp').append("<div class='experiencia'><div class='box-img'><div class='img' style='background-image:url("+res.activity_image+")'></div></div><div class='avatar-box'>"+
 							"<div class='avatar-experiencia'><img src="+res.user_image+"></div><div class='avatar-info'><div class='name'>"+res.user_name+"</div><div class='description'>"+description[0].ES+"</div></div>")
 					}else if(count>4 && count <9){
 						//$('.body .content .row-md-2 .exp').append("<div class='experiencia'><img src="+res.activity_image+"></div>")
@@ -36,8 +36,14 @@ exp.getexperience();
 function funx(){
 if (this.scrollY > 50) {
   document.getElementById('cabeza').classList.add('nav-white');
+  $('.cabeza nav ul li a').addClass('black')
+  $('.cabeza nav').addClass('-top')
+  $('.cabeza').addClass('nav-height')
 }else{
       document.getElementById('cabeza').classList.remove('nav-white');
+      $('.cabeza nav ul li a').removeClass('black')
+      $('.cabeza nav').removeClass('-top')
+      $('.cabeza').removeClass('nav-height')
     }
 }
 window.addEventListener('scroll',function(){
