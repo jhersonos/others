@@ -6,8 +6,8 @@ $(document).ready(function(){
             }, 800);
         }); 
           var container   = document.getElementById('container').clientHeight * 0.5;
-          var sectiontext = document.getElementById('container').clientHeight*0.7;
-          var categories  = document.getElementById('container').clientHeight+document.getElementById('sectiontext').clientHeight + (document.getElementById('categories').clientHeight * 0.5);
+          var sectiontext = document.getElementById('container').clientHeight*0.3;
+          var categories  = document.getElementById('container').clientHeight+document.getElementById('sectiontext').clientHeight + (document.getElementById('categories').clientHeight * 0.3);
           var mankivideo  = document.getElementById('container').clientHeight+document.getElementById('sectiontext').clientHeight + document.getElementById('categories').clientHeight+(document.getElementById('mankivideo').clientHeight * 0.5);
           var destinos    = document.getElementById('container').clientHeight+document.getElementById('sectiontext').clientHeight + document.getElementById('categories').clientHeight * 0.5+document.getElementById('mankivideo').clientHeight+document.getElementById('destinos').clientHeight;
           var actividades = document.getElementById('actividades').clientHeight * 0.5;
@@ -21,17 +21,17 @@ $(document).ready(function(){
             }
             if(this.scrollY > container){
               document.getElementById('sectiontext').classList.remove('opacity-none')
-              document.getElementById('sectiontext').classList.add('w3-animate-bottom')
+              // document.getElementById('sectiontext').classList.add('w3-animate-bottom')
             }
             if(this.scrollY > sectiontext){
               document.getElementById('categories').classList.remove('opacity-none')
               document.getElementById('categories').classList.add('w3-animate-bottom')
             }
-            if(this.scrollY > categories){
+            if(this.scrollY > mankivideo){
               document.getElementById('mankivideo').classList.remove('opacity-none')
               document.getElementById('mankivideo').classList.add('w3-animate-bottom')
             }
-            if(this.scrollY > mankivideo){
+            if(this.scrollY > categories){
               document.getElementById('destinos').classList.remove('opacity-none')
               document.getElementById('destinos').classList.add('w3-animate-bottom')
             }
@@ -44,20 +44,20 @@ $(document).ready(function(){
             }
           })
 
-            $(".background > div:gt(0)").hide();
+            // $(".background > div:gt(0)").hide();
 
-            setInterval(function() {
-              $('.background > div:first')
-                .fadeOut(1000)
-                .next()
-                .fadeIn(1000)
-                .end()
-                .appendTo('.background');
-            }, 3000);
+            // setInterval(function() {
+            //   $('.background > div:first')
+            //     .fadeOut(1000)
+            //     .next()
+            //     .fadeIn(1000)
+            //     .end()
+            //     .appendTo('.background');
+            // }, 3000);
 
-            setInterval(()=>{
-              $( ".container .mouse" ).toggleClass('bottom');
-            },1000)
+            // setInterval(()=>{
+            //   $( ".container .mouse" ).toggleClass('bottom');
+            // },1000)
 
             $('.slick-art-mobile').slick({
                 dots: false,

@@ -187,11 +187,15 @@ html,body{
     display: inline-block;
     background-repeat: no-repeat;
     margin-right: -4px;
-
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: 80%;
     position: relative;
     overflow:hidden;
 }
@@ -224,6 +228,7 @@ html,body{
     display: none;
 }
 .container .mouse{
+    display: none;
     text-align: center;
     width: 3rem;
     height: 3rem;
@@ -345,6 +350,7 @@ span.center:hover .relative div{
 }
 .categories .section .first .up{
   position: relative;
+  display: block;
   width: 100%;
   height: 100%;
   -webkit-transition: -webkit-transform 0.35s;
@@ -387,6 +393,7 @@ span.center:hover .relative div{
     white-space: normal;
 }
 .categories .section .first .down .one{ 
+    display: block;
     position: relative;
     width: 100%;
     height: 100%;
@@ -494,6 +501,7 @@ span.center:hover .relative div{
 }
 .categories .section .second .midle .one{
     position: relative;
+    display: block;
     height: 100%;
     width:100%;
     -webkit-transition: -webkit-transform 0.35s;
@@ -525,6 +533,7 @@ span.center:hover .relative div{
     transform: perspective(1000px) translate3d(0,0,90px);
 }
 .categories .section .second .midle .two{
+    display: block;
     position: relative;
     opacity: 0.8;
     height: 100%;

@@ -1,12 +1,15 @@
+
+
+
 function funx(){
 if (this.scrollY > 50) {
   document.getElementById('cabeza').classList.add('nav-white');
-  document.getElementById('static').classList.add('top');
+  // document.getElementById('static').classList.add('top');
 }else{
       document.getElementById('cabeza').classList.remove('nav-white');
-      document.getElementById('static').classList.remove('top');
+      // document.getElementById('static').classList.remove('top');
     }
-    if (this.scrollY >1100) {
+    if (this.scrollY >1800) {
     	document.getElementById('static').classList.add('bottom');
     }else{
     	document.getElementById('static').classList.remove('bottom');

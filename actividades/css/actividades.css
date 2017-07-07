@@ -4,6 +4,21 @@ html,body{
 	margin:0;
 	padding: 0;
 }
+.f-left{
+    float: left;
+}
+.f-rigth{
+    float: right;
+}
+.r{
+    position: relative;
+    right: 8px;
+}
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.9s;
+    transition: opacity 0.9s ease-in-out;
+}
 .top{
     margin-top:0 !important;
     transition: all 1.5s ease-in-out;
@@ -63,16 +78,16 @@ top: 0.25rem;
     position: fixed;
 }
 .box-map{
-    height: 320px;
+    height: 23rem;
     position: relative;
     margin-left: auto;
-    width: 92%;
+    width: 85%;
     border-bottom: 1px solid #c2c2c2;
 }
 .box-map .title-map{
     position: relative;
     margin-left: auto;
-    width: 85%;
+    width: 92%;
     margin-top: 1rem;
 }
 .box-map .title-map .title{
@@ -103,9 +118,12 @@ top: 0.25rem;
 /*actividad container*/
 .actividad-container{
 	width: 100%;
+    text-align: center;
 }
 .actividad-container .table-actividad{
-	width: 100%;
+	width: 70%;
+    text-align: left;
+    display: inline-block;
 }
 .actividad-container .table-actividad .actividad-row{
 	width: 50%;
@@ -203,7 +221,7 @@ top: 0.25rem;
     letter-spacing: .5px;
 }
 .actividad-container .table-actividad .actividad-row .lider-actividad{
-    height: 266px;
+    height: 19rem;
     position: relative;
     margin-left: auto;
     width: 85%;
@@ -270,6 +288,21 @@ top: 0.25rem;
     font-weight: 400;
     letter-spacing: .8px;
 }
+.actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .ico-mes{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('../../assets/Iconos/language.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    top: 0.4rem;
+    margin-right: 0.4rem;
+}
+.actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .len{
+    display: inline-block;
+}
 .actividad-container .table-actividad .actividad-row .text-actividad{
     height: 266px;
     position: relative;
@@ -308,7 +341,7 @@ top: 0.25rem;
     color:#303030;
 }
 .actividad-container .table-actividad .actividad-row .package{
-    height: 200px;
+    height: 16rem;
     position: relative;
     margin-left: auto;
     width: 85%;
@@ -419,11 +452,19 @@ top: 0.25rem;
     margin-left: 6rem;
     width: 388px;
 }
-.actividad-container .actividad-row .boximage img{
+.boximage .box-img{
+    width: 380px;
+    height:435px;
+}
+.actividad-container .actividad-row .boximage .image-back{
     // width: 400px;
     // height: 460px;
+    background-image: url("../../bg-mobile.png");
     width: 380px;
     height: 435px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .actividad-container .actividad-row .box-info{
     width: 100%;
@@ -432,7 +473,21 @@ top: 0.25rem;
     width: 100%;
     margin: 0.5rem 0;
     font-family: 'source sans pro';
+    text-align: center;
 }
+.actividad-container .actividad-row .box-info .price .precio-static{
+        display: inline-block;
+    }
+.actividad-container .actividad-row .box-info .price .btn-coti{
+        display: inline-block;
+        width: 10rem;
+        text-align: center;
+        background-color: #ff480c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 .actividad-container .actividad-row .box-info .price span{
     font-weight: 300;
     letter-spacing: .8px;
@@ -519,7 +574,7 @@ top: 0.25rem;
     margin-top: 0.5rem;
 }
 .actividad-container .table-actividad .actividad-row .where{
-    height: 200px;
+    height: 19rem;
     position: relative;
     margin-left: auto;
     width: 85%;
@@ -563,6 +618,79 @@ top: 0.25rem;
     color:#303030;
     font-weight: 300;
     letter-spacing: .8px;
+}
+.actividad-container .table-actividad .actividad-row .table{
+    height: 230px;
+    position: relative;
+    margin-left: auto;
+    font-weight: 300;
+    letter-spacing: .8px;
+    width: 78%;
+    border-bottom: 1px solid #c2c2c2;
+    font-family: 'source sans pro';
+    padding: 1rem 0rem;
+}
+.actividad-container .table-actividad .actividad-row .table .row{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad{
+    width: 100%;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.actividad-container .table-actividad .actividad-row .table .row ul{
+    padding: 0;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad .operation{
+    width: 100%;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .num{
+    width: 45%;
+    display: inline-block;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions{
+    width: 55%;
+    display: inline-block;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .mas{
+    background-image: url('../../assets/Iconos/mas.png');
+    position: relative;
+    top:0.3rem;
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+.actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .menos{
+    background-image: url('../../assets/Iconos/menos.png');
+    position: relative;
+    top:0.3rem;
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+.actividad-container .table-actividad .actividad-row .table .row .total{
+    width: 100%;
+}
+.actividad-container .table-actividad .actividad-row .table .row .total .coti{
+    width: 100%;
+}
+.actividad-container .table-actividad .actividad-row .table .row .total .coti .precio{
+    display: inline-block;
+    width: 50%;
+}
+.actividad-container .table-actividad .actividad-row .table .row .total .coti .precio-num{
+    display: inline-block;
+    width: 50%;
 }
 /* end actividad container*/
 /*actividades*/
@@ -738,10 +866,10 @@ top: 0.25rem;
 	width: 100%;
 }
 /* end footer container*/
-	  .cabeza{
+  .cabeza{
     width: 100%;
-    // position: fixed;
-    position: absolute;
+    position: fixed;
+    // position: absolute;
     text-align: center;
     z-index: 2;
     -webkit-transition: background .8s ease-in-out;
@@ -802,6 +930,9 @@ top: 0.25rem;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal !important;
+  }
+  .color-orange{
+    color: #ff480c !important;
   }
   .manki-name{
     font-weight: 600;
@@ -888,6 +1019,12 @@ top: 0.25rem;
         margin-top: 1.5rem;
         font-family: 'source sans pro';
     }
+    .mobile .description .price .precio-static{
+        display: inline-block;
+    }
+    .mobile .description .price .btn-coti{
+        display: inline-block;
+    }
     .mobile .description .button{
         width: 50%;
         display: inline-block;
@@ -922,7 +1059,48 @@ top: 0.25rem;
     }
     .mobile .description .date{
         width: 100%;
-        height: 6rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .mobile .description .date .icons{
+        width: 100%;
+        height: 50px;
+    }
+    .mobile .description .date .icons .box{
+        width: 33.33%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .mobile .description .date .icons .box .ico-reloj{
+        background-image: url(../../assets/Iconos/reloj.png);
+        width: 1.5rem;
+        height: 1.5rem;
+        background-position: center;
+        display: inline-block;
+        background-size: 100% 100%;
+    }
+    .mobile .description .date .icons .box .ico-locacion{
+        background-image: url(../../assets/Iconos/locacion.png);
+        width: 1.5rem;
+        height: 1.5rem;
+        background-position: center;
+        display: inline-block;
+        background-size: 100% 100%;
+    }
+    .mobile .description .date .icons .box .ico-personas{
+        background-image: url(../../assets/Iconos/personas.png);
+        width: 1.5rem;
+        height: 1.5rem;
+        background-position: center;
+        display: inline-block;
+        background-size: 100% 100%;
+    }
+    .mobile .description .date .icons .box span{
+        display: block;
+        font-family: 'source sans pro';
+        font-weight: 300;
+        letter-spacing: .5px;
     }
     .mobile .description hr{
         width: 80%;
@@ -1062,7 +1240,7 @@ top: 0.25rem;
     }
     .tall{
         width: 150px !important;
-        margin-bottom: 7rem !important;
+        margin-bottom: 0 !important;
         margin: 0.6rem;
         display: inline-block;
         height: 325px;
@@ -1136,7 +1314,7 @@ top: 0.25rem;
     }
     .actividades .art{
         width: 100%;
-        height: 431px;
+        height: 330px;
         display: inline-block;
     }
     .actividades .art .art-1{
