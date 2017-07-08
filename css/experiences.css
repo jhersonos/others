@@ -6,16 +6,16 @@
   }
   /*video*/
   /*video*/
-.mankivideo{
+#experience-id .mankivideo{
     width: 100%;
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
-.mankivideo .cont{
+#experience-id .mankivideo .cont{
     width: 100%;
     text-align: center;
 }
-.mankivideo .cont .letters{
+#experience-id .mankivideo .cont .letters{
     font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-size: 0.8rem;
@@ -25,19 +25,19 @@
     margin-top:0.6rem;
     color: #505050;
 }
-.mankivideo .cont video{
+#experience-id .mankivideo .cont video{
     width: 60%;
     /*height: 635px;*/
     display: inline-block;
 }
   /*end video*/
-.avatar-box{
+#experience-id .avatar-box{
   width: 100%;
   height: 60%;
   position: absolute;
   bottom: -10.5rem;
 }
-.avatar-box .avatar-experiencia{
+#experience-id .avatar-box .avatar-experiencia{
     width: 32%;
     border-radius: 50%;
     background: white;
@@ -47,16 +47,16 @@
     display: inline-block;
 }
 
-.avatar-box .avatar-experiencia img{
+#experience-id .avatar-box .avatar-experiencia img{
  width: 100%;
  height: 100%;
  border-radius: 50%; 
 }
-.avatar-box .avatar-info{
+#experience-id .avatar-box .avatar-info{
   font-family: 'source sans pro';
   width: 100%;
 }
-.avatar-box .avatar-info .name{
+#experience-id .avatar-box .avatar-info .name{
   font-weight: 400;
     text-transform: uppercase;
     font-family: 'source sans pro';
@@ -68,7 +68,7 @@
     position: relative;
     color: #303030;
 }
-.avatar-box .avatar-info .description{
+#experience-id .avatar-box .avatar-info .description{
   font-family: 'source sans pro';
     font-size: 0.9rem;
     font-weight: 300;
@@ -91,7 +91,7 @@
       font-size: 2rem;
       font-weight: 800;
     } 
-  .nav-white{
+#experience-id   .nav-white{
     background-color: white;
     -webkit-transition: background 1s ease-in-out;
     -moz-transition: background 1s ease-in-out;
@@ -100,14 +100,14 @@
     transition: background 1s ease-in-out;
 }
 /*footer*/
-.mankifooter{
+#experience-id .mankifooter{
   width: 100%;
   height: 50px;
   background-color: #ebebeb;
   display: table;
   position: relative;
 }
-.mankifooter .copy{
+#experience-id .mankifooter .copy{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
@@ -119,7 +119,7 @@
   vertical-align: middle;
   padding-left: 1rem;
 }
-.mankifooter .manki{
+#experience-id .mankifooter .manki{
   position: absolute;
     left: 50%;
     top: 50%;
@@ -131,47 +131,47 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.mankifooter .log{
+#experience-id .mankifooter .log{
   display: none;
 }
 /*end footer*/
 /*title-active*/
-.row-md-1{
+#experience-id .row-md-1{
   display: block;
 }
-.row-md-2{
+#experience-id .row-md-2{
   display: block;
 }
-.active-experiences{
+#experience-id .active-experiences{
   width: 100%;
 }
-.active-experiences .head{
+#experience-id .active-experiences .head{
   width: 100%;
   height: 10%;
 }
-.active-experiences .body{
+#experience-id .active-experiences .body{
   width: 100%;
   height: 85%;
 }
-.active-experiences .body .content{
+#experience-id .active-experiences .body .content{
   width: 100%;
   height: 100%;
 }
-.active-experiences .body .content .row{
+#experience-id .active-experiences .body .content .row{
   width: 100%;
   height: 50%;
   margin:1rem 0;
   margin-bottom: 6rem;
   // margin-bottom: 13rem;
 }
-.active-experiences .body .content .row .exp{
+#experience-id .active-experiences .body .content .row .exp{
   width: 100%;
   text-align: center;
   height: 90%;
   margin-left: auto;
   margin-right: auto;
 }
-.active-experiences .body .content .row .exp .experiencia{
+#experience-id .active-experiences .body .content .row .exp .experiencia{
     width: 24%;
     max-width: 250px;
     height: 282px;
@@ -180,13 +180,13 @@
     margin: 0.55rem;
     position: relative;
 }
-.active-experiences .body .content .row .exp .experiencia .box-img{
+#experience-id .active-experiences .body .content .row .exp .experiencia .box-img{
   width: 100%;
   height: 100%;
   overflow: hidden;
   background:black;
 }
-.active-experiences .body .content .row .exp .experiencia .img{
+#experience-id .active-experiences .body .content .row .exp .experiencia .img{
   width: 100%;
   height: 100%;
   background-position: center;
@@ -197,20 +197,20 @@
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-.active-experiences .body .content .row .exp .experiencia .img:after{
+#experience-id .active-experiences .body .content .row .exp .experiencia .img:after{
   z-index: -1;
 }
-.active-experiences .body .content .row .exp .experiencia .img:hover{
+#experience-id .active-experiences .body .content .row .exp .experiencia .img:hover{
     -webkit-transform: perspective(1000px) translate3d(0,0,90px);
     transform: perspective(1000px) translate3d(0,0,90px);
     opacity: 0.5;
     transition: all .3s ease-in-out;
 }
-.active-experiences .body .content .row .exp .experiencia img{
+#experience-id .active-experiences .body .content .row .exp .experiencia img{
   width: 100%;
   height: 100%;
 }
-.active-experiences .body .more{
+#experience-id .active-experiences .body .more{
     width: 100%;
     height: 10%;
     text-align: center;
@@ -220,12 +220,12 @@
     font-weight: 300;
     font-size:0.9rem;
 }
-.active-experiences .head ul{
+#experience-id .active-experiences .head ul{
   width: 100%;
   text-align: center;
   padding: 0 !important;
 }
-.active-experiences .head ul li{
+#experience-id .active-experiences .head ul li{
   list-style: none;
   display: inline-block;
   padding: 0 1rem;
@@ -236,12 +236,12 @@
   text-transform: uppercase;
   font-size: .9rem;
 }
-.active-experiences .head ul li.active{
+#experience-id .active-experiences .head ul li.active{
   color: #ff480c;
 }
 /* end title-active*/
 /*title-active*/
-.title-active{
+#experience-id .title-active{
   width: 100%;
   text-align: center;
   /*height: 10%;*/
@@ -256,20 +256,20 @@
 }
 /*end title active*/
 /*experiences*/
-.text-rigth{
+#experience-id .text-rigth{
   text-align: right;
 }
-.text-left{
+#experience-id .text-left{
   text-align: left;
 }
-.experiences{
+#experience-id .experiences{
   width: 100%;
   text-align: center;
 }
-.experiences section{
+#experience-id .experiences section{
   width: 100%;
 }
-.experiences section .text-exp{
+#experience-id .experiences section .text-exp{
   /*width: 20%;
   height: 90%;*/
   width: 269px;
@@ -279,37 +279,37 @@
   // margin: 0 1rem;
   position: relative;
 }
-.experiences section .desktop{
+#experience-id .experiences section .desktop{
   display: inline-block;
 }
-.experiences section .mobile{
+#experience-id .experiences section .mobile{
   display: none;
 }
-.experiences section .text-exp .contenido{
+#experience-id .experiences section .text-exp .contenido{
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-.experiences section .text-exp .contenido .title-exp{
+#experience-id .experiences section .text-exp .contenido .title-exp{
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .5px;
   font-family: 'source sans pro';
   font-size: 2rem;
 }
-.experiences section .text-exp .contenido .content-exp{
+#experience-id .experiences section .text-exp .contenido .content-exp{
   font-family: 'source sans pro';
   font-weight: 300;
   letter-spacing: .5px;
   font-size: 1.5rem;
 }
-.experiences section .back-container{
+#experience-id .experiences section .back-container{
   width: 100%;
   height: 504px;
   background: black;
   position:relative;
 }
-.experiences section .back-1{
+#experience-id .experiences section .back-1{
     width: 100%;
     height: 100%;
     opacity: 0.5;
@@ -324,7 +324,7 @@
     /* margin-bottom: 0rem; */
     position:relative;
 }
-.experiences section .text-exp{
+#experience-id .experiences section .text-exp{
   text-align: center;
   width: 100%;
   height: 3rem;
@@ -335,7 +335,7 @@
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-.experiences section .back-2{
+#experience-id .experiences section .back-2{
   width: 1011px;
   height: 504px;
   display: inline-block;
@@ -347,13 +347,13 @@
 }
 /*end experiences*/
 /*section text */
-.sectiontext{
+#experience-id .sectiontext{
   text-align: center;
   width: 100%;
   margin: 5rem 0;
   display: block;
 }
-.sectiontext div{
+#experience-id .sectiontext div{
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
@@ -366,7 +366,7 @@
     text-transform: uppercase;
     font-size: 1.25rem;
 }
-.sectiontext span{
+#experience-id .sectiontext span{
     width: 60%;
     display: inline-block;
     height: 35px;
@@ -381,19 +381,19 @@
 
 /*end section text*/
 /*container*/
-#b1{
+#experience-id #b1{
   background-image: url(".././assets/actividades/Active/surfing.jpg");
 }
-#b2{
+#experience-id #b2{
   background-image: url("../cusco.png");
 }
-#b3{
+#experience-id #b3{
   background-image: url("../background.png");
 }
-#b4{
+#experience-id #b4{
   background-image: url("../cusco.png");
 }
-.background{
+#experience-id .background{
   height: 100% !important;
   width: 100% !important;
   transition: left 0.8s;
@@ -402,7 +402,7 @@
   /*overflow-x: hidden;*/
   white-space: nowrap;
 }
-.background .content{
+#experience-id .background .content{
     background-position: center;
     position: relative;
     height:100%;
@@ -413,14 +413,14 @@
     margin-right: -4px;
     background-attachment: fixed;
 }
-.container{
+#experience-id .container{
     width: 100%;
     height: 70%;
     /*height: 90vh;*/
     position: relative;
     overflow:hidden;
 }
-.container .title{
+#experience-id .container .title{
     text-align: center;
     position: absolute;
     left: 50%;
@@ -428,24 +428,24 @@
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
-.container .title h1{
+#experience-id .container .title h1{
     /*color:#303030;*/
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
-.container .title h2{
+#experience-id .container .title h2{
     /*color:#303030;*/
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
-.container .group{
+#experience-id .container .group{
     display: none;
 }
-.container .mouse{
+#experience-id .container .mouse{
     display: none;
     text-align: center;
     width: 3rem;
@@ -460,12 +460,12 @@
     -webkit-transform: translate(-50%, -50%);
     transition: bottom 0.8s;
 }
-.bottom{
+#experience-id .bottom{
   bottom: 1.5rem !important;
   transition: left 0.8s;
 }
   /*end container */
-  .manki-name{
+  #experience-id .manki-name{
     font-weight: 600;
     line-height: 1.43;
     letter-spacing: 1.4px;
@@ -476,12 +476,12 @@
     padding: 0 !important;
     font-weight: normal !important;
   }
-  .manki-name a{
+  #experience-id .manki-name a{
     text-decoration: none;
     color: #ff480c !important;
   }
 
-  .cabeza{
+  #experience-id .cabeza{
     width: 100%;
     position: fixed;
     text-align: center;
@@ -492,10 +492,10 @@
     -o-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out;
   }
-  .cabeza nav{
+  #experience-id .cabeza nav{
     min-height: 58px;
   }
-  .cabeza nav ul{
+  #experience-id .cabeza nav ul{
     border-bottom: .5px solid rgba(225,225,225,.5);
     height: 75px;
     margin: 0px 40px;
@@ -504,7 +504,7 @@
     -webkit-background-clip: padding-box; 
     background-clip: padding-box; 
   }
-  .black{
+  #experience-id .black{
     color:#303030 !important;
     -webkit-transition: color .4s ease;
     -moz-transition: color .4s ease;
@@ -512,7 +512,7 @@
     -o-transition: color .4s ease;
     transition: color .4s ease;
   }
-  .cabeza nav ul li{
+  #experience-id .cabeza nav ul li{
     list-style: none;
     display: inline-block;
     vertical-align: top;
@@ -527,27 +527,27 @@
     font-family: 'Source Sans Pro', sans-serif;
     cursor: pointer;
   }
-  .cabeza nav ul li a{
+  #experience-id .cabeza nav ul li a{
     text-decoration: none;
     /*color: #303030;*/
     color:white;
   }
-  .cabeza nav ul li.menu{
+  #experience-id .cabeza nav ul li.menu{
     display: none;
   }
-  .cabeza nav ul li.left{
+  #experience-id .cabeza nav ul li.left{
     float: left;
     top: 12px !important;
     padding: 0;
     text-transform: uppercase;
   }
-  .cabeza nav ul li.left img{
+  #experience-id .cabeza nav ul li.left img{
     width: 3rem;
     margin: 5px;
     height: 3rem;
     margin-left: -0.2rem;
   }
-  .cabeza nav ul li.right{
+  #experience-id .cabeza nav ul li.right{
     float: right;
     padding: 0;
     color:#ff480c;
@@ -557,14 +557,14 @@
   }
 @media only screen and (max-width: 500px) {
 /*footer*/
-.mankifooter{
+#experience-id .mankifooter{
     width: 100%;
     height: 50px;
     background-color: #ebebeb;
     display: table;
     position: relative;
   }
-  .mankifooter .copy{
+  #experience-id .mankifooter .copy{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
@@ -575,27 +575,27 @@
     width: 100%;
     padding-left: 0;
   }
-  .mankifooter .manki{
+  #experience-id .mankifooter .manki{
     display: none;
   }
-  .mankifooter .log{
+  #experience-id .mankifooter .log{
     display: block;
     width: 100%;
     text-align: center;
   }
-  .mankifooter .log img{
+  #experience-id .mankifooter .log img{
     width: 35px;
     height: 35px;
   }
 /*end footer*/
 /*section text*/
-  .sectiontext{
+  #experience-id .sectiontext{
     text-align: center;
     width: 100%;
     margin: 5rem 0;
     display: block;
   }
-  .sectiontext div{
+  #experience-id .sectiontext div{
     font-size:1.7rem;
     width: 100%;
     margin-bottom: 1rem;
@@ -605,7 +605,7 @@
     color: #303030;
     text-transform: uppercase;
   }
-  .sectiontext span{
+  #experience-id .sectiontext span{
     width: 90%;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
@@ -618,19 +618,19 @@
   }
 /*end section text*/
   /*container*/
-   #b1{
+   #experience-id #b1{
     background-image: url("../bg-mobile.png");
   }
-  #b2{
+  #experience-id #b2{
     background-image: url("../cusco.png");
   }
-  #b3{
+  #experience-id #b3{
     background-image: url("../background.png");
   }
-  #b4{
+  #experience-id #b4{
     background-image: url("../cusco.png");
   }
-  .container .group{
+  #experience-id .container .group{
     display: block;
     text-align: center;
     position: absolute;
@@ -648,11 +648,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
   }
-  .container .first h2{
+  #experience-id .container .first h2{
      margin: 0.2em 0em;
      font-weight: 300;
   }
-  .container .second h6{
+  #experience-id .container .second h6{
     line-height: 0.76;
     margin: 0.1em 0em;
     letter-spacing: 0.7px;
@@ -661,26 +661,26 @@
     text-align: center;
     font-weight: 300;
   }
-  .container .title{
+  #experience-id .container .title{
     display: none;
   }
   /*end container*/
   /*experiences*/
-  .experiences section{
+  #experience-id .experiences section{
     width: 100%;
     height: 340px;
   }
-  .experiences section .back-1{
+  #experience-id .experiences section .back-1{
     width: 100%;
     height: 199px;
     margin:0;
   }
-  .experiences section .back-2{
+  #experience-id .experiences section .back-2{
     width: 100%;
     height: 199px;
     margin:0;
   }
-  .experiences section .text-exp {
+  #experience-id .experiences section .text-exp {
     width: 269px;
     height: 95px;
     display: inline-block;
@@ -688,15 +688,15 @@
     margin: 0 1rem;
     position: relative;
 }
-  .experiences section .mobile{
+  #experience-id .experiences section .mobile{
     display: block;
   }
-  .experiences section .desktop{
+  #experience-id .experiences section .desktop{
     display: none;
   }
   /*end experiences*/
   /*title active*/
-  .title-active{
+  #experience-id .title-active{
     width: 85%;
     text-align: center;
     height: 65px;
@@ -708,56 +708,56 @@
   }
   /*end title active*/
   /*active experieces*/
-  .row-md-1{
+  #experience-id .row-md-1{
   display: block;
   }
-  .row-md-2{
+  #experience-id .row-md-2{
     display: none;
   }
-    .active-experiences{
+    #experience-id .active-experiences{
       height: auto;
     }
-    .active-experiences .body .content .row{
+    #experience-id .active-experiences .body .content .row{
       margin:1rem 0;
     }
-    .active-experiences .body .content .row .exp{
+    #experience-id .active-experiences .body .content .row .exp{
         width: 100%;
         text-align: center;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-    .active-experiences .body .content .row .exp .experiencia{
+    #experience-id .active-experiences .body .content .row .exp .experiencia{
         width: 140px;
         height: 226px;
         display: inline-block;
   
         margin: 0 0.5rem;
     }
-    .active-experiences .body .content .row .exp .experiencia img{
+    #experience-id .active-experiences .body .content .row .exp .experiencia img{
       width: 100%;
       height: 100%;
     }
 
   /*end active experieces*/
-  .cabeza{
+  #experience-id .cabeza{
     width: 100%;
     position: fixed;
     text-align: center;
     z-index: 2;
     top: 0;
   }
-  .cabeza nav{
+  #experience-id .cabeza nav{
 
   }
-  .cabeza nav ul{
+  #experience-id .cabeza nav ul{
     border-bottom: 0;
     height: 58px;
     margin: 0px 1rem;
     font-size: 0;
     padding: 0;
   }
-  .cabeza nav ul li{
+  #experience-id .cabeza nav ul li{
     list-style: none;
     display: none;
     vertical-align: top;
@@ -769,31 +769,31 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  .cabeza nav ul li.menu{
+  #experience-id .cabeza nav ul li.menu{
     display: inline-block;
     top: 0;
     padding: 0;
   }
-  .cabeza nav ul li.menu img {
+  #experience-id .cabeza nav ul li.menu img {
     width: 3rem;
     height: 3rem;
     position: relative;
     top: 0.3rem;
   }
-  .cabeza nav ul li.left{
+  #experience-id .cabeza nav ul li.left{
     display: inline-block;
     float: left;
     top: 0 !important;
     padding: 0;
     text-transform: uppercase;
   }
-  .cabeza nav ul li.left img{
+  #experience-id .cabeza nav ul li.left img{
     width: 3rem;
     height: 3rem;
     position: relative;
     top: 0.3rem;
   }
-  .cabeza nav ul li.right{
+  #experience-id .cabeza nav ul li.right{
     display: inline-block;
     float: right;
     padding: 0;
@@ -804,10 +804,10 @@
 }
 @media only screen and (min-width: 501px) and (max-width: 1024px) {
   /*experiences*/
-    .experiences section{
+   #experience-id .experiences section{
     text-align: center;
   }
-    .experiences section .text-exp{
+    #experience-id .experiences section .text-exp{
     /*width: 20%;
     height: 90%;*/
     width: 200px;
@@ -817,20 +817,20 @@
     margin: 0 1rem;
     position: relative;
   }
-  .experiences section .text-exp .contenido{
+  #experience-id .experiences section .text-exp .contenido{
     width: 100%;
     position: absolute;
     bottom: 0;
   }
-  .experiences section .text-exp .contenido .title-exp{
+  #experience-id .experiences section .text-exp .contenido .title-exp{
     text-transform: uppercase;
   font-family: 'source sans pro';
 }
-.experiences section .text-exp .contenido .content-exp{
+#experience-id .experiences section .text-exp .contenido .content-exp{
   font-family: 'source sans pro';
 }
 
-  .experiences section .back-1{
+  #experience-id .experiences section .back-1{
     width: 500px;
     height: 250px;
     display: inline-block;
@@ -840,7 +840,7 @@
     background-repeat: no-repeat;
     margin-bottom: 7rem;
   }
-  .experiences section .back-2{
+  #experience-id .experiences section .back-2{
     width: 500px;
     height: 250px;
     display: inline-block;
@@ -852,55 +852,55 @@
   }
   /*end experiences*/
   /*title active */
-  .title-active{
+  #experience-id .title-active{
     width: 100%;
     text-align: center;
     height: 50px;
   }
  /*end title active */
 /*active experiences*/
-.active-experiences{
+#experience-id .active-experiences{
   height: auto;
 }
-.active-experiences .body .content .row{
+#experience-id .active-experiences .body .content .row{
   margin:1rem 0;
 }
-.active-experiences .body .content .row .exp{
+#experience-id .active-experiences .body .content .row .exp{
     width: 100%;
     text-align: center;
     height: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-.active-experiences .body .content .row .exp .experiencia{
+#experience-id .active-experiences .body .content .row .exp .experiencia{
     width: 171px;
     height: 273px;
     display: inline-block;
     margin: 0 0.5rem;
 }
-.active-experiences .body .content .row .exp .experiencia img{
+#experience-id .active-experiences .body .content .row .exp .experiencia img{
   width: 100%;
   height: 100%;
 }
 /*end active experiences*/
-  .cabeza{
+  #experience-id .cabeza{
     width: 100%;
     position: fixed;
     text-align: center;
     z-index: 2;
     top: 0;
   }
-  .cabeza nav{
+  #experience-id .cabeza nav{
 
   }
-  .cabeza nav ul{
+  #experience-id .cabeza nav ul{
     border-bottom: 0;
     height: 58px;
     margin: 0px 1rem;
     font-size: 0;
     padding: 0;
   }
-  .cabeza nav ul li{
+  #experience-id .cabeza nav ul li{
     list-style: none;
     display: none;
     vertical-align: top;
@@ -912,31 +912,31 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  .cabeza nav ul li.menu{
+  #experience-id .cabeza nav ul li.menu{
     display: inline-block;
     top: 0;
     padding: 0;
   }
-  .cabeza nav ul li.menu img {
+  #experience-id .cabeza nav ul li.menu img {
     width: 4rem;
     height: 4rem;
     position: relative;
     top: 0.3rem;
   }
-  .cabeza nav ul li.left{
+  #experience-id .cabeza nav ul li.left{
     display: inline-block;
     float: left;
     top: 0 !important;
     padding: 0;
     text-transform: uppercase;
   }
-  .cabeza nav ul li.left img{
+  #experience-id .cabeza nav ul li.left img{
     width: 4rem;
     height: 4rem;
     position: relative;
     top: 0.3rem;
   }
-  .cabeza nav ul li.right{
+  #experience-id .cabeza nav ul li.right{
     display: inline-block;
     float: right;
     padding: 0;
@@ -947,7 +947,7 @@
   }
 }
 @media (min-width:1025px) and (max-width: 1200px){
-  .manki-name{
+  #experience-id .manki-name{
     font-weight: 600;
     line-height: 1.43;
     letter-spacing: 1.4px;
@@ -957,23 +957,23 @@
     text-transform: uppercase;
     padding: 0 !important;
   }
-  .cabeza{
+  #experience-id .cabeza{
     width: 100%;
     position: fixed;
     text-align: center;
     z-index: 2;
   }
-  .cabeza nav{
+  #experience-id .cabeza nav{
     min-height: 58px;
   }
-  .cabeza nav ul{
+  #experience-id .cabeza nav ul{
     border-bottom: 1px solid #e6e6e6;
     height: 58px;
     margin: 0px 40px;
     font-size: 0;
     padding: 0;
   }
-  .cabeza nav ul li{
+  #experience-id .cabeza nav ul li{
     list-style: none;
     display: inline-block;
     vertical-align: top;
@@ -985,16 +985,16 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  .cabeza nav ul li.menu{
+  #experience-id .cabeza nav ul li.menu{
     display: none;
   }
-  .cabeza nav ul li.left{
+  #experience-id .cabeza nav ul li.left{
     float: left;
     top: 0 !important;
     padding: 0;
     text-transform: uppercase;
   }
-  .cabeza nav ul li.right{
+  #experience-id .cabeza nav ul li.right{
     float: right;
     padding: 0;
     color:#ff480c;
@@ -1003,10 +1003,10 @@
   }
 }
 @media (min-width: 1400px){
-  .sectiontext span{
+  #experience-id .sectiontext span{
     width: 45%;
   }
-  .active-experiences .body .content .row .exp .experiencia {
+  #experience-id .active-experiences .body .content .row .exp .experiencia {
     width: 24%;
     max-width: 321px;
     height: 282px;
@@ -1015,13 +1015,13 @@
     margin: 0 10px;
     position: relative;
   }
-  .avatar-box{
+  #experience-id .avatar-box{
     bottom:-13.5rem;
   }
-  .cabeza nav ul{
+  #experience-id .cabeza nav ul{
     height: 100%;
   }
-  .cabeza{
+  #experience-id .cabeza{
     height: 7rem;
     -webkit-transition: height .4s ease-in-out;
     -moz-transition: height .4s ease-in-out;
@@ -1029,7 +1029,7 @@
     -o-transition: height .4s ease-in-out;
     /*transition: height .4s ease-in-out;*/
   }
-  .nav-height{
+  #experience-id .nav-height{
      height: 5rem;
     -webkit-transition: height .4s ease-in-out;
     -moz-transition: height .4s ease-in-out;
@@ -1037,7 +1037,7 @@
     -o-transition: height .4s ease-in-out;
     /*transition: height .4s ease-in-out;*/
   }
-  .cabeza nav{
+  #experience-id .cabeza nav{
     width: 75%;
     height: 100%;
     display: inline-block;
@@ -1050,15 +1050,15 @@
     -o-transition: background .5s ease-in-out;
     transition: background .5s ease-in-out;
   }
-  .-top{
+  #experience-id .-top{
     top:-0.8rem !important;
     transition: all .5s ease-in-out;
   }
-  .-top ul{
+  #experience-id .-top ul{
     border: 0 !important;
     transition: all .5s ease-in-out;
   }
-    .nav-white{
+   #experience-id .nav-white{
     background-color: white;
     -webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
