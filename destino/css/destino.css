@@ -497,6 +497,8 @@
 .active-experiences .body .art .tall .box-actividad .top-box{
     width: 100%;
     height: 354px;
+    background-size: cover;
+    background-position: center;
 }
 .active-experiences .body .art .tall .box-actividad .top-box:hover{
     -webkit-transform: perspective(1000px) translate3d(0,0,90px);
