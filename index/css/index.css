@@ -4,6 +4,136 @@ html,body{
   margin: 0;
   padding: 0;
 }
+/*modals styles*/
+.trigger{
+    color:#ff480c !important;
+  }
+#modal{
+  width: 32%;
+  height: 50%;
+  font-family: 'source sans pro';
+  background-color: #ebeaea;
+}
+#modal2{
+  width: 32%;
+  height: 50%;
+  font-family: 'source sans pro';
+  background-color: #ebeaea;
+}
+.head-modal{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.head-modal button{
+    width: 21rem;
+    height: 3.5rem;
+    display: inline-block;
+    margin: 0.5rem 0px;
+    font-family: 'source sans pro';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    position:relative;
+    margin: 1rem 0;
+}
+.head-modal .facebook-modal{
+  background-color: #405d9b;
+  color:white;
+}
+.head-modal .facebook-modal .ico-face{
+  background-image: url(https://cdn.worldvectorlogo.com/logos/facebook-3.svg);
+  width: 2rem;
+  height: 2rem;
+  position:absolute;
+  left: 1rem;
+  top:0.7rem;
+  background-position: center;
+  background-size: 100%;
+}
+.head-modal .google-modal{
+  background-color:white;
+  position:relative;
+  color:#605a59;
+  border: 1px solid #d7d5d5;
+}
+.head-modal .google-modal .ico-google{
+  background-image: url(../../assets/Iconos/google.svg);
+  width: 2rem;
+  height: 2rem;
+  position:absolute;
+  left: 1rem;
+  top:0.7rem;
+  background-position: center;
+  background-size: 100%;
+}
+.body-modal{
+  width: 100%;
+  margin: 1rem 0;
+}
+.body-modal .text-modal{
+  width: 100%;
+  text-align: center;
+  font-family: 'source sans pro';
+  font-weight: 300;
+}
+.body-modal .form-modal{
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+}
+.body-modal .form-modal .field-modal{
+  margin: 1rem 0;
+}
+.body-modal .form-modal .field-modal .label-modal{
+    width: 78%;
+    text-align: left;
+    display: inline-block;
+    font-family: 'source sans pro';
+    font-weight: 300;
+}
+.body-modal .form-modal .field-modal .input-modal input[type=text]{
+    width: 20.5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.body-modal .action-modal{
+  width: 100%;
+}
+.body-modal .action-modal .login-modal{
+    width: 21rem;
+    height: 3.5rem;
+    display: inline-block;
+    margin: 0.5rem 0px;
+    font-family: 'source sans pro';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    position:relative;
+    background-color: #ff6c3c;
+    color:white;
+    border: none
+}
+.body-modal .action-modal .login-modal .manki-modal{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../../assets/Iconos/logo-de-manki.svg);
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 1rem;
+  top:0.9rem;
+}
+.body-modal .footer-modal{
+  font-family: 'source sans pro';
+  margin: 1rem 0;
+  font-weight: 300;
+}
+.body-modal .footer-modal a{
+  color: #ff6c3c;
+  font-family: 'source sans pro';
+  font-weight: 300;
+}
 /*style*/
 .slick-art-mobile{display: none !important;}
 .art-mobile{display: none !important;}
@@ -615,7 +745,7 @@ span.center:hover .relative div{
     color: #ffffff;
     text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
 }
-.text{
+/*.text{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -626,7 +756,7 @@ span.center:hover .relative div{
     letter-spacing: 1.4px;
     text-align: center;
     color: #ffffff;
-}
+}*/
 .destino-picture{
     width: 24%;
     height: 100%;
@@ -855,6 +985,7 @@ span.center:hover .relative div{
     text-align: center;
     color: #ffffff;
     font-weight: 400;
+    /*bottom:0;*/
 }
 .actividades{
     margin-top: 6rem;
@@ -1104,27 +1235,27 @@ span.center:hover .relative div{
       position: relative;
     }
     .src1{
-        background-image:url('../../assets/index/refresh.png');
+        background-image:url('../../assets/destinos/arequipa/arequipa_2.jpg');
         background-size: 100% 100%; 
     }
     .src2{
-        background-image:url('../../assets/index/passion.png');
+        background-image:url('../../assets/landing/Landing-2.jpg');
         background-size: 100% 100%; 
     }
     .src3{
-        background-image:url('../../assets/index/inspiration.png');
+        background-image:url('../../assets/landing/Landing-3.jpg');
         background-size: 100% 100%; 
     }
     .src4{
-        background-image:url('../../assets/index/bonding.png');
+        background-image:url('../../assets/landing/Landing-1.jpg');
         background-size: 100% 100%; 
     }
     .src5{
-        background-image:url('../../assets/index/clarity.png');
+        background-image:url('../../assets/landing/Landing-5.jpg');
         background-size: 100% 100%; 
     }
     .src6{
-        background-image:url('../../assets/index/relax.png');
+        background-image:url('../../assets/landing/Landing-2.jpg');
         background-size: 100% 100%; 
     }
     /*destino mobile*/
@@ -1428,27 +1559,27 @@ span.center:hover .relative div{
       display: inline-block;
     }
     .src1{
-        background-image:url('../../assets/index/refresh.png');
+        background-image:url('../../assets/destinos/arequipa/arequipa_2.jpg');
         background-size: 100% 100%; 
     }
     .src2{
-        background-image:url('../../assets/index/passion.png');
+        background-image:url('../../assets/landing/Landing-2.jpg');
         background-size: 100% 100%; 
     }
     .src3{
-        background-image:url('../../assets/index/inspiration.png');
+        background-image:url('../../assets/landing/Landing-3.jpg');
         background-size: 100% 100%; 
     }
     .src4{
-        background-image:url('../../assets/index/bonding.png');
+        background-image:url('../../assets/landing/Landing-1.jpg');
         background-size: 100% 100%; 
     }
     .src5{
-        background-image:url('../../assets/index/clarity.png');
+        background-image:url('../../assets/landing/Landing-5.jpg');
         background-size: 100% 100%; 
     }
     .src6{
-        background-image:url('../../assets/index/relax.png');
+        background-image:url('../../assets/landing/Landing-2.jpg');
         background-size: 100% 100%; 
     }
     /*video tablet*/
@@ -1696,6 +1827,7 @@ span.center:hover .relative div{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
+
   /*destinos*/
   .destinos{
         height: 62%;

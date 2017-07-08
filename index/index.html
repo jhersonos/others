@@ -9,11 +9,13 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/plugin/iziModal.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/plugin/iziModal.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
@@ -21,24 +23,24 @@
   <nav>
     <ul>
       <li class="left">
-        <img src="/logo-de-manki-orange.svg">
+        <a href="#"><img src="/logo-de-manki-orange.svg"></a>
       </li>
       <li class="manki-name">
         <a href="#">Manki</a>
       </li>  
       <li>
-        <a href="#sectiontext">lifeStyle</a>
+        <a href="#sectiontext" class="normi">lifeStyle</a>
       </li>
       <li class="menu">
         <img src="https://cdn4.iconfinder.com/data/icons/flat-black/128/menu.png">
       </li>
       <li>
-        <a href="#destinos">Destination</a>
+        <a href="#destinos" class="normi">Destination</a>
       </li>
       <li>
-        <a href="#actividades">Activity</a>
+        <a href="#actividades" class="normi">Activity</a>
       </li>
-      <li class="right">sign up</li>
+      <li class="right"><a href="#" class="trigger">sign up</a></li>
     </ul>
   </nav>
 </div>
@@ -78,7 +80,7 @@
         <div class="section">
             <div class="first">
                 <div class="full relative over up-r">
-                    <a href="../experiences.html" class="up">
+                    <a href="../experiences/experiences.html" class="up">
                         <div class="img"></div>
                         <!-- <img src="../assets/landing/Landing-5.jpg"> -->
                     </a>
@@ -86,13 +88,13 @@
                 </div>
                 <div class="down">
                     <div class="relative over inline full-height width-midle">
-                        <a href="../experiences2.html" class="midle one">
+                        <a href="../experiences/experiences2.html" class="midle one">
                             <div class="img"></div>
                             <!-- <img src="../assets/landing/Landing-2.jpg">  -->
                         </a>
                         <span class="center">clarity</span>
                     </div><div class="relative over inline full-height width-midle">
-                        <a href="../experiences3.html" class="midle two">
+                        <a href="../experiences/experiences3.html" class="midle two">
                             <div class="img"></div>
                             <!-- <img src="../assets/landing/Landing-3.jpg"> -->
                         </a>
@@ -103,20 +105,20 @@
         </div><div class="section">
             <div class="second">
                 <div class="relative over inline full-height width-45">
-                    <a href="../experiences4.html" class="midle large">
+                    <a href="../experiences/experiences4.html" class="midle large">
                         <div class="img"></div>
                         <!-- <img src="../assets/landing/Landing-1.jpg"> -->
                     </a>
                     <span class="center">passion</span>
                 </div><div class="midle small">
                     <div class="relative over full-width height-midle">
-                        <a href="../experiences5.html" class="one">
+                        <a href="../experiences/experiences5.html" class="one">
                             <div class="img"></div>
                             <!-- <img src="../assets/landing/Landing-5.jpg"> -->
                         </a>
                         <span class="center">inspiration</span>
                     </div><div class="relative over full-width height-midle">
-                        <a href="../experiences6.html" class="two">
+                        <a href="../experiences/experiences6.html" class="two">
                             <div class="img"></div>
                             <!-- <img src="../assets/landing/Landing-2.jpg"> -->
                         </a>
@@ -335,6 +337,84 @@
                 </div>
             </div>
         </div>
-    </div>     
+    </div>  
+    <div id="modal">
+        <div class="head-modal">
+            <button class="facebook-modal"><div class="ico-face"></div>Ingresa con Facebook</button>
+            <button class="google-modal"><div class="ico-google"></div>Ingresa con Google</button>
+        </div>
+        <div class="body-modal">
+            <div class="text-modal">o ingresa con tus datos </div>
+            <div class="form-modal">
+                <div class="field-modal">
+                    <div class="label-modal">
+                        <label>Tu e-mail</label>
+                    </div>
+                    <div class="input-modal">
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="field-modal">
+                    <div class="label-modal">
+                        <label>Tu contraseña</label>
+                    </div>
+                    <div class="input-modal">
+                        <input type="text" id="password">
+                    </div>
+                </div>
+                <div class="action-modal">
+                    <button class="login-modal">
+                        <div class="manki-modal"></div> Ingresa a manki
+                    </button>
+                </div>
+                <div class="footer-modal">
+                    ¿No tienes cuenta? <a href="#" id="signup" class="orange">registrate en manki</a>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div id="modal2">
+        <div class="head-modal">
+            <button class="facebook-modal"><div class="ico-face"></div>Ingresa con Facebook</button>
+            <button class="google-modal"><div class="ico-google"></div>Ingresa con Google</button>
+        </div>
+        <div class="body-modal">
+            <div class="text-modal">o ingresa con tus datos </div>
+            <div class="form-modal">
+                <div class="field-modal">
+                    <div class="label-modal">
+                        <label>Tu nombre</label>
+                    </div>
+                    <div class="input-modal">
+                        <input type="text" id="name">
+                    </div>
+                </div>
+                <div class="field-modal">
+                    <div class="label-modal">
+                        <label>Tu e-mail</label>
+                    </div>
+                    <div class="input-modal">
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="field-modal">
+                    <div class="label-modal">
+                        <label>Tu contraseña</label>
+                    </div>
+                    <div class="input-modal">
+                        <input type="text" id="password">
+                    </div>
+                </div>
+                <div class="action-modal">
+                    <button class="login-modal">
+                        <div class="manki-modal"></div> Ingresa a manki
+                    </button>
+                </div>
+                <div class="footer-modal">
+                    ¿No tienes cuenta? <a href="#" id="login" class="orange trigger">registrate en manki</a>
+                </div>
+            </div>
+        </div>
+    </div>   
 </body>
 </html>

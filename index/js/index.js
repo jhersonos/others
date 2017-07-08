@@ -1,5 +1,17 @@
+//cancion de tutorial skate #5
 $(document).ready(function(){
-        $(".cabeza nav ul li a").click(function() {
+        $("#modal").iziModal();
+        $(document).on('click', '.trigger', function (event) {
+            event.preventDefault();
+            $('#modal').iziModal('open');
+        });
+        $(document).on('click', '#signup', function (event) {
+            event.preventDefault();
+            $('#modal2').iziModal();
+            $('#modal').iziModal('close');
+            $('#modal2').iziModal('open');
+        });
+        $(".cabeza nav ul li a.normi").click(function() {
           var at = $(this).attr('href');
             $('html, body').animate({
                 scrollTop: $(at).offset().top

@@ -1,25 +1,21 @@
-
-
-
-function funx(){
-if (this.scrollY > 50) {
-  document.getElementById('cabeza').classList.add('nav-white');
-  // document.getElementById('static').classList.add('top');
-}else{
-      document.getElementById('cabeza').classList.remove('nav-white');
-      // document.getElementById('static').classList.remove('top');
+var actividad = new Vue({
+  el:'#actividad-container',
+  data:{
+    all:[]
+  },
+  methods:{
+    showinfo:function(id_exp){
+      var self = this 
+      self.$http.get('http://128.199.229.185:3000/experiences/'+id_exp).then(response=>{
+        self.all = response.body
+        console.log(self.all)
+      },response=>{
+        console.log(response)
+      });
     }
-    if (this.scrollY >1800) {
-    	document.getElementById('static').classList.add('bottom');
-    }else{
-    	document.getElementById('static').classList.remove('bottom');
-    }
-}
-window.addEventListener('scroll',function(){
-	funx()
-})
-funx()
-
+  }
+});
+//{{base_url}}/experiences/530
 /*mobile*/
 $('.actividad-slick').slick({
     dots: false,
@@ -84,3 +80,24 @@ $('.actividad-slick').slick({
       }
     ]
   });
+// // image scroll 
+// $(document).ready(function(){
+//   // var tall = $('#r1').height()
+//   // $('#r2').css('height',tall)
+//   // $("#static").sticky();  
+// })
+
+
+// function funx(){
+//     if (this.scrollY > 50) {
+//       document.getElementById('cabeza').classList.add('nav-white');
+//         $('.cabeza nav ul li a').addClass('black');
+//       }else{
+//         document.getElementById('cabeza').classList.remove('nav-white');
+//         $('.cabeza nav ul li a').removeClass('black');
+//       }
+// }
+// window.addEventListener('scroll',function(){
+//  funx()
+// })
+// funx()
