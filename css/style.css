@@ -48,7 +48,7 @@ html,body{
       -webkit-transform: translate(-50%, -50%);
       color: #f2e0d7;
       letter-spacing: .5px;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1.5rem;
         font-weight: 300;
   }
@@ -57,7 +57,7 @@ html,body{
         text-transform: uppercase;
         font-weight: 300;
         letter-spacing: .5px;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
         font-size: 2rem;
     }    
   /*section text*/
@@ -71,7 +71,7 @@ html,body{
       width: 80%;
       margin-bottom: 1rem;
       display: inline-block;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 20px;
       font-weight: 300;
       letter-spacing: .5px;
@@ -84,7 +84,7 @@ html,body{
       width: 60%;
       display: inline-block;
       height: 35px;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 1rem;
       font-weight: 200;
       line-height: 1.33;
@@ -136,7 +136,7 @@ html,body{
     letter-spacing: 1.2px;
     padding: 0px 3rem;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     cursor: pointer;
   }
   #destino-id .cabeza nav ul li a{
@@ -164,7 +164,7 @@ html,body{
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: normal !important;
   }
    #destino-id .manki-name{
@@ -172,7 +172,7 @@ html,body{
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -236,13 +236,13 @@ html,body{
 }
 #destino-id .container .title h1{
     color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
 #destino-id .container .title h2{
     color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
@@ -326,7 +326,7 @@ html,body{
 #destino-id .tall .author-content .author-text .title{
     /* margin-top: 2.5rem; */
     font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     line-height: 2.26;
     letter-spacing: .5px;
@@ -336,7 +336,7 @@ html,body{
     color: #303030;
 }
 #destino-id .tall .author-content .author-text .cont{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     position: relative;
@@ -347,7 +347,7 @@ html,body{
     top: -0.7rem;
 }
 #destino-id .text-2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     display: block;
     font-size: 2rem;
     font-weight: 600;
@@ -362,7 +362,7 @@ html,body{
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     letter-spacing: 1.4px;
     text-align: center;
@@ -381,7 +381,7 @@ html,body{
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -393,7 +393,7 @@ html,body{
 #destino-id .actividades .group .content{
     width: 60%;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -576,7 +576,7 @@ html,body{
     display: inline-block;
     padding: 0 1rem;
     cursor: pointer;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -595,7 +595,7 @@ html,body{
   position: relative;
 }
 #destino-id .mankifooter .copy{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 1.2px;
@@ -631,13 +631,13 @@ html,body{
 #index-id #modal{
   width: 32%;
   height: 50%;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   background-color: #ebeaea;
 }
 #index-id #modal2{
   width: 32%;
   height: 50%;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   background-color: #ebeaea;
 }
 #index-id .head-modal{
@@ -650,7 +650,7 @@ html,body{
     height: 3.5rem;
     display: inline-block;
     margin: 0.5rem 0px;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -694,7 +694,7 @@ html,body{
 #index-id .body-modal .text-modal{
   width: 100%;
   text-align: center;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   font-weight: 300;
 }
 #index-id .body-modal .form-modal{
@@ -709,7 +709,7 @@ html,body{
     width: 78%;
     text-align: left;
     display: inline-block;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
 }
 #index-id .body-modal .form-modal .field-modal .input-modal input[type=text]{
@@ -725,7 +725,7 @@ html,body{
     height: 3.5rem;
     display: inline-block;
     margin: 0.5rem 0px;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -745,13 +745,13 @@ html,body{
   top:0.9rem;
 }
 #index-id .body-modal .footer-modal{
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   margin: 1rem 0;
   font-weight: 300;
 }
 #index-id .body-modal .footer-modal a{
   color: #ff6c3c;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   font-weight: 300;
 }
 /*style*/
@@ -822,7 +822,7 @@ html,body{
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -874,7 +874,7 @@ html,body{
     letter-spacing: 1.2px;
     padding: 0px 3rem;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     cursor: pointer;
   }
   #index-id .cabeza nav ul li a{
@@ -902,7 +902,7 @@ html,body{
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: normal !important;
   }
   /* container*/
@@ -960,7 +960,7 @@ html,body{
 #index-id .container .title h1{
     /*color:#303030;*/
     color:white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
     text-transform: uppercase;
@@ -969,7 +969,7 @@ html,body{
 #index-id .container .title h2{
     /*color:#303030;*/
     color:white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
     letter-spacing: .2px; 
@@ -1007,7 +1007,7 @@ html,body{
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -1020,7 +1020,7 @@ html,body{
     width: 60%;
     display: inline-block;
     height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -1071,7 +1071,7 @@ html,body{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     letter-spacing: 1.9px;
     text-align: center;
     color: #ffffff;
@@ -1325,7 +1325,7 @@ html,body{
     text-align: center;
 }
 #index-id .mankivideo .cont .letters{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-style: italic;
     font-size: 0.8rem;
     font-weight: 300;
@@ -1356,7 +1356,7 @@ html,body{
 }
 #index-id .text-2{
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     display: block;
     font-size: 2rem;
     font-weight: 600;
@@ -1371,7 +1371,7 @@ html,body{
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     letter-spacing: 1.4px;
     text-align: center;
@@ -1447,7 +1447,7 @@ html,body{
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -1460,7 +1460,7 @@ html,body{
     width: 60%;
     display: inline-block;
     height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -1514,7 +1514,7 @@ html,body{
   transition: all .3s ease-in-out;
 }
 #index-id .text-2-tall{
-   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Source sans pro', sans-serif;
     display: block;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -1563,7 +1563,7 @@ html,body{
     /* margin-top: 2.5rem; */
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: .8rem;
     line-height: 2.26;
     letter-spacing: 1.5px;
@@ -1573,7 +1573,7 @@ html,body{
     color: #303030;
 }
 #index-id #actividades .art .tall .author-content .author-text .cont{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     position: relative;
@@ -1584,7 +1584,7 @@ html,body{
     top: -0.7rem;
 }
 #index-id .text-2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     display: block;
     font-size: 1.4rem;
     font-weight: 300;
@@ -1599,7 +1599,7 @@ html,body{
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     letter-spacing: 2px;
     text-align: center;
@@ -1619,7 +1619,7 @@ html,body{
   width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -1631,7 +1631,7 @@ html,body{
 #index-id .actividades .group .content{
     width: 60%;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -1681,7 +1681,7 @@ html,body{
     text-align: center;
 }
 #experience-id .mankivideo .cont .letters{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-style: italic;
     font-size: 0.8rem;
     font-weight: 300;
@@ -1718,13 +1718,13 @@ html,body{
  border-radius: 50%; 
 }
 #experience-id .avatar-box .avatar-info{
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   width: 100%;
 }
 #experience-id .avatar-box .avatar-info .name{
   font-weight: 400;
     text-transform: uppercase;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-size: .8rem;
     line-height: 2.26;
     letter-spacing: 1.5px;
@@ -1734,7 +1734,7 @@ html,body{
     color: #303030;
 }
 #experience-id .avatar-box .avatar-info .description{
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     position: relative;
@@ -1773,7 +1773,7 @@ html,body{
   position: relative;
 }
 #experience-id .mankifooter .copy{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 1.2px;
@@ -1880,7 +1880,7 @@ html,body{
     height: 10%;
     text-align: center;
     color: #ff480c;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     letter-spacing: 1.5px;
     font-weight: 300;
     font-size:0.9rem;
@@ -1895,7 +1895,7 @@ html,body{
   display: inline-block;
   padding: 0 1rem;
   cursor: pointer;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   font-weight: 300;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -1914,7 +1914,7 @@ html,body{
   width: 100%;
   margin-bottom: 3.5rem;
   text-transform: uppercase;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   margin-top: 5rem;
   font-size: 1.25rem;
   letter-spacing: .5px;
@@ -1959,11 +1959,11 @@ html,body{
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .5px;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   font-size: 2rem;
 }
 #experience-id .experiences section .text-exp .contenido .content-exp{
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
   font-weight: 300;
   letter-spacing: .5px;
   font-size: 1.5rem;
@@ -2022,7 +2022,7 @@ html,body{
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -2035,7 +2035,7 @@ html,body{
     width: 60%;
     display: inline-block;
     height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -2096,14 +2096,14 @@ html,body{
 #experience-id .container .title h1{
     /*color:#303030;*/
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
 #experience-id .container .title h2{
     /*color:#303030;*/
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     margin: .2rem;
 }
@@ -2135,7 +2135,7 @@ html,body{
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -2189,7 +2189,7 @@ html,body{
     letter-spacing: 1.2px;
     padding: 0px 3rem;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     cursor: pointer;
   }
   #experience-id .cabeza nav ul li a{
@@ -2217,7 +2217,7 @@ html,body{
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: normal !important;
   }
   #actividad-id #r1{width: 65%;}
@@ -2261,7 +2261,7 @@ transition: all .3s linear;
 top: 0.25rem;
 }
 #actividad-id .terms{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.8rem;
 }
 #actividad-id .terms-orange{
@@ -2310,7 +2310,7 @@ top: 0.25rem;
 }
 #actividad-id .box-map .title-map .title{
     font-size: 1rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     text-transform: uppercase;
     letter-spacing: .8px;
@@ -2319,7 +2319,7 @@ top: 0.25rem;
 }
 #actividad-id .box-map .title-map .cont{
     font-size: 1rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: .8px;
     color: #303030;
@@ -2367,7 +2367,7 @@ top: 0.25rem;
 #actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .text h2{
   margin:1rem;
   text-transform: uppercase;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     line-height: 1.33;
     letter-spacing: 1.5px;
@@ -2378,7 +2378,7 @@ top: 0.25rem;
   margin:1rem;
     margin-top: -0.5rem;
   text-transform: uppercase;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     line-height: 2;
     letter-spacing: 1px;
@@ -2407,7 +2407,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box span{
     display: block;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: .5px;
 }
@@ -2421,7 +2421,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box span{
     display: block;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: .5px;
 }
@@ -2435,7 +2435,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box span{
     display: block;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: .5px;
 }
@@ -2454,7 +2454,7 @@ top: 0.25rem;
     position: absolute;
     bottom: 2rem;
     left: 2.5rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     margin-left: 1rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages .ico-mes{
@@ -2497,7 +2497,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box .name{
   margin-top: 1rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     text-transform: uppercase;
     font-size: .8rem;
@@ -2521,7 +2521,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .paragraph{
   font-size: 15px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source sans pro', sans-serif;
     color:#303030;
     font-weight: 300;
     line-height: 1.67;
@@ -2529,7 +2529,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages{
   margin-top: 1rem;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     font-weight: 400;
     letter-spacing: .8px;
@@ -2573,7 +2573,7 @@ top: 0.25rem;
     -webkit-transform: translate(-50%, -50%);
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .title{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .8px;
@@ -2581,7 +2581,7 @@ top: 0.25rem;
     color:#303030;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .text{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-weight: 300;
     letter-spacing: .8px;
     color:#303030;
@@ -2603,7 +2603,7 @@ top: 0.25rem;
     position: relative;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .title{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .8px;
@@ -2615,7 +2615,7 @@ top: 0.25rem;
     right: 0;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .title span{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     line-height: 0.8;
     letter-spacing: .8px;
@@ -2640,7 +2640,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .body .text ul li{
   padding: .15rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     font-size: 1rem;
     font-weight: 300;
@@ -2669,7 +2669,7 @@ top: 0.25rem;
     right: 0;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .head .title span{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     text-transform: uppercase;
     letter-spacing: .8px;
@@ -2687,7 +2687,7 @@ top: 0.25rem;
     position: absolute;
     right: 0;
     margin-top: 0.83rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color: #303030;
     font-weight: 300;
     letter-spacing: .8px;
@@ -2720,7 +2720,7 @@ top: 0.25rem;
 #actividad-id .actividad-container .actividad-row .box-info .price{
     width: 100%;
     margin: 0.5rem 0;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     text-align: center;
 }
 #actividad-id .actividad-container .actividad-row .box-info .price .precio-static{
@@ -2754,7 +2754,7 @@ top: 0.25rem;
     vertical-align: top;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row .title{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color: #303030;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad{
@@ -2777,14 +2777,14 @@ top: 0.25rem;
     width: 25%;
     display: inline-block;
     font-size: 1rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row .total .coti .precio-num{
     width: 75%;
     font-size: 1rem;
     display: inline-block;
     font-weight: 600;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad .operacion{
     width: 100%;
@@ -2803,13 +2803,13 @@ top: 0.25rem;
     color: #ff480c;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row .foot{
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color: #ff480c;
     line-height: 2;
     letter-spacing: 0.6px;
 }
 #actividad-id .actividad-container .actividad-row .box-info .table .row li span{
-    font-family: 'Source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color: #303030;
 }
 #actividad-id .btn-activities{
@@ -2845,7 +2845,7 @@ top: 0.25rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .head .title span{
     font-size: 1rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     text-transform: uppercase;
     letter-spacing: .8px;
@@ -2862,7 +2862,7 @@ top: 0.25rem;
     position: absolute;
     right: 0;
     margin-top: 0.83rem;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     color:#303030;
     font-weight: 300;
     letter-spacing: .8px;
@@ -2875,7 +2875,7 @@ top: 0.25rem;
     letter-spacing: .8px;
     width: 78%;
     border-bottom: 1px solid #c2c2c2;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     padding: 1rem 0rem;
 }
 #actividad-id .actividad-container .table-actividad .actividad-row .table .row{
@@ -2993,7 +2993,7 @@ top: 0.25rem;
 #actividad-id .tall .author-content .author-text .title{
     /* margin-top: 2.5rem; */
     font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     line-height: 2.26;
     letter-spacing: .5px;
@@ -3003,7 +3003,7 @@ top: 0.25rem;
     color: #303030;
 }
 #actividad-id .tall .author-content .author-text .cont{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     position: relative;
@@ -3014,7 +3014,7 @@ top: 0.25rem;
     top: -0.7rem;
 }
 #actividad-id .text-2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     display: block;
     font-size: 2rem;
     font-weight: 600;
@@ -3037,7 +3037,7 @@ top: 0.25rem;
     width: 80%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: .5px;
@@ -3049,7 +3049,7 @@ top: 0.25rem;
 #actividad-id .actividades .group .content{
     width: 60%;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.33;
@@ -3135,7 +3135,7 @@ top: 0.25rem;
     letter-spacing: 1.2px;
     padding: 0px 3rem;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     cursor: pointer;
 
   }
@@ -3163,7 +3163,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-weight: normal !important;
   }
  #actividad-id  .color-orange{
@@ -3174,7 +3174,7 @@ top: 0.25rem;
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -3189,7 +3189,7 @@ top: 0.25rem;
   position: relative;
 }
 #actividad-id .mankifooter .copy{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 1.2px;
@@ -3264,7 +3264,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #index-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -3296,7 +3296,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   /*actividad mobile*/
     #index-id #b1{
@@ -3326,7 +3326,7 @@ top: 0.25rem;
     letter-spacing: 1.2px;
     text-align: center;
     color: #303030;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
   }
   #index-id .container .first h2{
@@ -3357,7 +3357,7 @@ top: 0.25rem;
     width: 100%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     line-height: 0.67;
     color: #303030;
     text-transform: uppercase;
@@ -3365,7 +3365,7 @@ top: 0.25rem;
   #index-id .sectiontext span{
     width: 90%;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.7rem;
     font-weight: 300;
     line-height: 1.43;
@@ -3381,7 +3381,7 @@ top: 0.25rem;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     letter-spacing: 1.9px;
     text-align: center;
     color: #ffffff;
@@ -3433,7 +3433,7 @@ top: 0.25rem;
       top: 50%;
       transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 1rem;
       letter-spacing: 1.4px;
       text-align: center;
@@ -3441,7 +3441,7 @@ top: 0.25rem;
   }
   #index-id .text-2{
       text-transform: uppercase;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       display: block;
       font-size: 1.2rem;
       font-weight: 300;
@@ -3494,7 +3494,7 @@ top: 0.25rem;
       background-repeat: no-repeat;
   }
   #index-id .destinos .group .content{
-      font-family: "Source Sans Pro", sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.9rem;
       font-weight: 300;
       width: 85%;
@@ -3507,7 +3507,7 @@ top: 0.25rem;
   }
   #index-id .destinos .group .title{
       font-size: 1.6rem;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       line-height: 1;
       letter-spacing: 3px;
       text-align: center;
@@ -3568,7 +3568,7 @@ top: 0.25rem;
   #index-id #actividades .art .tall .author-content .author-text .title{
       margin-top: 0;
       font-weight: 800;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.9rem;
       line-height: 2.26;
       letter-spacing: 1px;
@@ -3576,7 +3576,7 @@ top: 0.25rem;
       color: #303030;
   }
   #index-id #actividades .art .tall .author-content .author-text .cont{
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.6rem;
       font-weight: 300;
       line-height: 1.47;
@@ -3671,7 +3671,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
  #destino-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -3703,7 +3703,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
 /*actividades*/
 #destino-id .actividades{
@@ -3714,7 +3714,7 @@ top: 0.25rem;
         width: 80%;
         margin-bottom: 1rem;
         display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 20px;
         font-weight: 300;
         letter-spacing: 3px;
@@ -3726,7 +3726,7 @@ top: 0.25rem;
    #destino-id .actividades .group .content{
         width: 85%;
         display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1rem;
         font-weight: 200;
         line-height: 1.33;
@@ -3791,7 +3791,7 @@ top: 0.25rem;
    #destino-id .tall .author-content .author-text .title{
         margin-top: 0;
         font-weight: 800;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 0.9rem;
         line-height: 2.26;
         letter-spacing: 1px;
@@ -3799,7 +3799,7 @@ top: 0.25rem;
         color: #303030;
     }
    #destino-id .tall .author-content .author-text .cont{
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 0.6rem;
         font-weight: 300;
         line-height: 1.47;
@@ -3865,7 +3865,7 @@ top: 0.25rem;
       position: relative;
     }
     #destino-id .mankifooter .copy{
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.9rem;
       font-weight: 300;
       display: block;
@@ -3897,7 +3897,7 @@ top: 0.25rem;
     position: relative;
   }
   #experience-id .mankifooter .copy{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     display: block;
@@ -3932,7 +3932,7 @@ top: 0.25rem;
     width: 100%;
     margin-bottom: 1rem;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     line-height: 0.67;
     color: #303030;
     text-transform: uppercase;
@@ -3940,7 +3940,7 @@ top: 0.25rem;
   #experience-id .sectiontext span{
     width: 90%;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.7rem;
     font-weight: 300;
     line-height: 1.43;
@@ -3977,7 +3977,7 @@ top: 0.25rem;
     letter-spacing: 1.2px;
     text-align: center;
     color: #303030;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     text-transform: uppercase;
   }
   #experience-id .container .first h2{
@@ -4033,7 +4033,7 @@ top: 0.25rem;
     text-align: center;
     height: 65px;
     text-transform: uppercase;
-    font-family: 'source sans pro';
+    font-family: 'Source sans pro', sans-serif;
     font-size: 1.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -4099,7 +4099,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #experience-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -4131,7 +4131,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #actividad-id  .fix{
         position: fixed;
@@ -4166,7 +4166,7 @@ top: 0.25rem;
         text-align: center;
         font-size: 1.3rem;
         margin-top: 1.5rem;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .description .price .precio-static{
         display: inline-block;
@@ -4196,14 +4196,14 @@ top: 0.25rem;
     }
    #actividad-id  .mobile .description .descubre .title span{
         margin-left: 2rem;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .description .descubre .content{
         margin: 0.5rem;
     }
    #actividad-id  .mobile .description .descubre .content span{
         margin-left: 2rem;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
         display: block;
     }
    #actividad-id  .mobile .description .date{
@@ -4247,7 +4247,7 @@ top: 0.25rem;
     }
    #actividad-id  .mobile .description .date .icons .box span{
         display: block;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
         font-weight: 300;
         letter-spacing: .5px;
     }
@@ -4275,16 +4275,16 @@ top: 0.25rem;
         display: inline-block;
         width: 90%;
         text-align: left;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .description .avatar-mobile .name-mobile{
-        font-family: 'source sans pro';   
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .description .avatar-mobile .idioma{
         // text-align: left;
     }  
    #actividad-id  .mobile .description .avatar-mobile .idioma span{
-        font-family: 'source sans pro';      
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .description .notas-mobile{
         width: 100%;
@@ -4307,7 +4307,7 @@ top: 0.25rem;
         margin-right: auto;
         margin-left: auto;
         display: block;
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }  
    #actividad-id  .mobile .map-mobile{
         width: 100%;
@@ -4324,7 +4324,7 @@ top: 0.25rem;
         text-transform: uppercase;
     }
    #actividad-id  .mobile .map-mobile .content-map .content{
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .map-mobile #map-mobile{
         width: 100%;
@@ -4340,7 +4340,7 @@ top: 0.25rem;
         margin-right: auto;
     }
    #actividad-id  .mobile .text-foot .title span{
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
         text-transform: uppercase;
     }
    #actividad-id  .mobile .text-foot .content{
@@ -4349,13 +4349,13 @@ top: 0.25rem;
         margin-right: auto;
     }
    #actividad-id  .mobile .text-foot .content span{
-        font-family: 'source sans pro';
+        font-family: 'Source sans pro', sans-serif;
     }
    #actividad-id  .mobile .provide-mobile{
         width: 100%;
     }
   #actividad-id   .mobile .provide-mobile .title{
-        font-family: 'source sans pro';   
+        font-family: 'Source sans pro', sans-serif;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -4370,7 +4370,7 @@ top: 0.25rem;
   #actividad-id   .mobile .provide-mobile .body .text ul{
         list-style: none;
         padding: 0;
-        font-family: 'source sans pro';   
+        font-family: 'Source sans pro', sans-serif;
     }
   #actividad-id   .actividades{
         margin-top: 2rem;
@@ -4437,7 +4437,7 @@ top: 0.25rem;
   #actividad-id .tall .author-content .author-text .title{
         margin-top: 0;
         font-weight: 800;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 0.9rem;
         line-height: 2.26;
         letter-spacing: 1px;
@@ -4445,7 +4445,7 @@ top: 0.25rem;
         color: #303030;
     }
   #actividad-id .tall .author-content .author-text .cont{
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 0.6rem;
         font-weight: 300;
         line-height: 1.47;
@@ -4534,7 +4534,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
 #actividad-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -4566,7 +4566,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
  /*footer*/
 .mankifooter{
@@ -4577,7 +4577,7 @@ top: 0.25rem;
     position: relative;
   }
 #actividad-id .mankifooter .copy{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     display: block;
@@ -4629,7 +4629,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #index-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -4661,7 +4661,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     top: 1.6rem;
   }
   /*categories table*/
@@ -4672,7 +4672,7 @@ top: 0.25rem;
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
         text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         letter-spacing: 1.9px;
         text-align: center;
         color: #ffffff;
@@ -4728,7 +4728,7 @@ top: 0.25rem;
       text-align: center;
   }
   #index-id .mankivideo .cont .letters{
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.9rem;
       font-weight: 300;
       line-height: 1;
@@ -4797,7 +4797,7 @@ top: 0.25rem;
         background-repeat: no-repeat;
     }
     #index-id .destinos .group .content{
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1rem;
         font-weight: 300;
         width: 70%;
@@ -4810,7 +4810,7 @@ top: 0.25rem;
     }
     #index-id .destinos .group .title{
         font-size: 2rem;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         line-height: 1;
         letter-spacing: 3px;
         text-align: center;
@@ -4843,7 +4843,7 @@ top: 0.25rem;
   }
   #index-id .actividades .group .title{
       font-size: 1.5rem;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       line-height: 0.67;
       letter-spacing: 3px;
       text-align: center;
@@ -4851,7 +4851,7 @@ top: 0.25rem;
       margin: 1rem 0;
   }
   #index-id .actividades .group .content{
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 0.8rem;
       font-weight: 300;
       width: 70%;
@@ -4927,10 +4927,10 @@ top: 0.25rem;
   }
   #experience-id .experiences section .text-exp .contenido .title-exp{
     text-transform: uppercase;
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
 }
 #experience-id .experiences section .text-exp .contenido .content-exp{
-  font-family: 'source sans pro';
+  font-family: 'Source sans pro', sans-serif;
 }
 
   #experience-id .experiences section .back-1{
@@ -5013,7 +5013,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #experience-id .cabeza nav ul li.menu{
     display: inline-block;
@@ -5045,7 +5045,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     top: 1.6rem;
   }
   #actividad-id .actividad-box .art{
@@ -5075,7 +5075,7 @@ top: 0.25rem;
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -5106,7 +5106,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #index-id .cabeza nav ul li.menu{
     display: none;
@@ -5122,7 +5122,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
 
   /*destinos*/
@@ -5134,7 +5134,7 @@ top: 0.25rem;
         height: 345px;
     }
     #index-id .destinos .group .content{
-        font-family: "Source Sans Pro", sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1rem;
         font-weight: 300;
         width: 70%;
@@ -5147,7 +5147,7 @@ top: 0.25rem;
     }
     #index-id .destinos .group .title{
         font-size: 2rem;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         line-height: 0.67;
         letter-spacing: 3px;
         text-align: center;
@@ -5165,7 +5165,7 @@ top: 0.25rem;
         height: 450px;
     }
     #index-id .actividades .group .content{
-        font-family: "Source Sans Pro", sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1rem;
         font-weight: 300;
         width: 70%;
@@ -5177,7 +5177,7 @@ top: 0.25rem;
     }
     #index-id .actividades .group .title{
         font-size: 2rem;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         line-height: 0.67;
         letter-spacing: 3px;
         text-align: center;
@@ -5189,7 +5189,7 @@ top: 0.25rem;
     line-height: 1.43;
     letter-spacing: 1.4px;
     color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     float: left;
     text-transform: uppercase;
     padding: 0 !important;
@@ -5220,7 +5220,7 @@ top: 0.25rem;
     color: #303030;
     padding: 0px 3rem; 
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #experience-id .cabeza nav ul li.menu{
     display: none;
@@ -5236,7 +5236,7 @@ top: 0.25rem;
     padding: 0;
     color:#ff480c;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
   }
   #actividad-id .actividades .art{
         width: 85%;
@@ -5263,7 +5263,7 @@ top: 0.25rem;
   #index-id .actividades .group .content {
       width: 45%;
       display: inline-block;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Source sans pro', sans-serif;
       font-size: 1rem;
       font-weight: 200;
       line-height: 1.33;
@@ -5397,7 +5397,7 @@ top: 0.25rem;
   #destino-id .actividades .group .content {
         width: 45%;
         display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Source sans pro', sans-serif;
         font-size: 1rem;
         font-weight: 200;
         line-height: 1.33;
