@@ -4,6 +4,626 @@ html,body{
   margin: 0;
   padding: 0;
 }
+#destino-id{
+  width: 100%;
+  height: 100%;
+}  
+#destino-id .slick-list{
+    height: 100% !important;
+}
+#destino-id .slick-track{
+    height: 100%;
+    /*width: 850px !important;*/
+}
+#destino-id .nav-white{
+    background-color: white;
+    -webkit-transition: background .8s ease-in-out;
+    -moz-transition: background .8s ease-in-out;
+    -ms-transition: background .8s ease-in-out;
+    -o-transition: background .8s ease-in-out;
+    transition: background .8s ease-in-out;
+    }
+  #destino-id .banner{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  #destino-id .banner .container-banner{
+    width: 100%;
+    background-image: url('../assets/destinos/banner.png');
+    height: 504px;
+    display: inline-block;
+    position: relative;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  #destino-id .banner .container-banner .text{
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      color: #f2e0d7;
+      letter-spacing: .5px;
+        font-family: 'source sans pro';
+        font-size: 1.5rem;
+        font-weight: 300;
+  }
+    #destino-id .banner .container-banner .text .title{
+        display: block;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: .5px;
+        font-family: 'source sans pro';
+        font-size: 2rem;
+    }    
+  /*section text*/
+  #destino-id .sectiontext{
+    text-align: center;
+    width: 100%;
+    margin: 5rem 0;
+    display: block;
+  }
+  #destino-id .sectiontext div{
+      width: 80%;
+      margin-bottom: 1rem;
+      display: inline-block;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: .5px;
+      line-height: 0.67;
+      color: #303030;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+  }
+  #destino-id .sectiontext span{
+      width: 60%;
+      display: inline-block;
+      height: 35px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 1.33;
+      letter-spacing: .5px;
+      color: #505050;
+      text-align: center;
+  }
+  /*end section text*/
+ #destino-id .cabeza{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    -webkit-transition: background .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out;
+    -ms-transition: background .4s ease-in-out;
+    -o-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
+  }
+  #destino-id .cabeza nav{
+    min-height: 58px;
+  }
+  #destino-id .cabeza nav ul{
+    border-bottom: .5px solid rgba(225,225,225,.5);
+    height: 75px;
+    margin: 0px 40px;
+    font-size: 0;
+    padding: 0;
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box; 
+  }
+  #destino-id .black{
+    color:#303030 !important;
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -ms-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+  }
+ #destino-id .cabeza nav ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #303030;
+    letter-spacing: 1.2px;
+    padding: 0px 3rem;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+  }
+  #destino-id .cabeza nav ul li a{
+    text-decoration: none;
+    /*color: #303030;*/
+    color:white;
+  }
+  #destino-id .cabeza nav ul li.menu{
+    display: none;
+  }
+  #destino-id .cabeza nav ul li.left{
+    float: left;
+    top: 12px !important;
+    padding: 0;
+    text-transform: uppercase;
+  }
+ #destino-id .cabeza nav ul li.left img{
+    width: 3rem;
+    margin: 5px;
+    height: 3rem;
+    margin-left: -0.2rem;
+  }
+ #destino-id .cabeza nav ul li.right{
+    float: right;
+    padding: 0;
+    color:#ff480c;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal !important;
+  }
+   #destino-id .manki-name{
+    font-weight: 600;
+    line-height: 1.43;
+    letter-spacing: 1.4px;
+    color: #ff480c !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    text-transform: uppercase;
+    padding: 0 !important;
+    font-weight: normal !important;
+  }
+ #destino-id .manki-name a{
+    text-decoration: none;
+    color: #ff480c !important;
+  }
+  /*container*/
+#destino-id #b1{
+  background-image: url("../destino/background.png");
+}
+#destino-id #b2{
+  background-image: url("../destino/cusco.png");
+}
+#destino-id #b3{
+  background-image: url("../destino/background.png");
+}
+#destino-id #b4{
+  background-image: url("../destino/cusco.png");
+}
+#destino-id .background{
+  height: 100% !important;
+  width: 100% !important;
+  transition: left 0.8s;
+  position: relative;
+  left: 0%;
+  /*overflow-x: hidden;*/
+  white-space: nowrap;
+}
+#destino-id .background .content{
+    position: relative;
+    height:100%;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: -4px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#destino-id .container{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    overflow:hidden;
+}
+#destino-id .container .title{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+#destino-id .container .title h1{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin: .2rem;
+}
+#destino-id .container .title h2{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin: .2rem;
+}
+#destino-id .container .group{
+    display: none;
+}
+#destino-id .container .mouse{
+    display: none;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    background-image: url('../../mouse.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transition: bottom 0.8s;
+}
+#destino-id .bottom{
+  bottom: 1.5rem !important;
+  transition: left 0.8s;
+}
+ /*end container */
+/*actividades*/
+#destino-id .actividad-slick .tall{
+    min-height: 315px;
+}
+#destino-id .tall{
+    margin: 0.2rem;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    /*bottom: 7rem;*/
+    /*width: 193px !important;*/
+    vertical-align: top;
+    width: 24%;
+    max-width: 250px;
+    margin: 0.55rem;
+}
+#destino-id .tall .author-content{
+    width: 100%;
+    height: 32%;
+    position: absolute;
+    display: block;
+    bottom: 0.5rem;
+}
+#destino-id .body .art .tall .author-content{
+    bottom: 2.5rem;
+}
+#destino-id .tall .author-content .author{
+    width: 32%;
+    height: 50%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    /*left: -0.4rem;*/
+}
+   #destino-id .avatar{
+        background-image: url('../assets/destinos/avatar/avatar-4.png');
+    }
+   #destino-id .avatar-2{
+        background-image: url('../assets/destinos/avatar/avatar-1.png');
+    }
+   #destino-id .avatar-3{
+        background-image: url('../assets/destinos/avatar/avatar-2.png');        
+    }
+   #destino-id .avatar-4{
+        background-image: url('../assets/destinos/avatar/avatar-3.png');        
+    }
+#destino-id .tall .author-content .author-text{
+    width: 70%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+#destino-id .tall .author-content .author-text .title{
+    /* margin-top: 2.5rem; */
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 2.26;
+    letter-spacing: .5px;
+    text-align: center;
+    top: -0.5rem;
+    position: relative;
+    color: #303030;
+}
+#destino-id .tall .author-content .author-text .cont{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    position: relative;
+    line-height: 1.37;
+    letter-spacing: .9px;
+    text-align: center;
+    color: #303030;
+    top: -0.7rem;
+}
+#destino-id .text-2{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
+}
+#destino-id .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #ffffff;
+}
+#destino-id .actividades{
+    margin-top: 6rem;
+    width: 100%;
+    text-align: center;
+    /*height: 100%;*/
+}
+#destino-id .actividades .group{
+    width:100%;
+}
+#destino-id .actividades .group .title{
+    width: 80%;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 0.67;
+    color: #303030;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+#destino-id .actividades .group .content{
+    width: 60%;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.33;
+    letter-spacing: .5px;
+    color: #505050;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+#destino-id .actividades .art{
+    width: 100%;
+    height: 471px;
+    display: inline-block;
+
+}
+#destino-id .actividades .art .box-art{
+    width: 100%;
+    height: 354px;
+    overflow:hidden;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    background: black;
+}
+#destino-id .actividades .art .box-art .top-actividades{
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+#destino-id .actividades .art .box-art .top-actividades:hover{
+    opacity: 0.5;
+    -webkit-transform: perspective(1000px) translate3d(0,0,90px);
+    transform: perspective(1000px) translate3d(0,0,90px);
+    transition: all .3s ease-in-out;
+}
+#destino-id .actividades .art .art-1{
+    background-image: url('../../../assets/actividades/Clarity/clarity-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .actividades .art .art-2{
+    background-image: url('../../../assets/actividades/Clarity/clarity-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .actividades .art .art-3{
+    background-image: url('../../../assets/actividades/Clarity/clarity-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .actividades .art .art-4{
+    background-image: url('../../../assets/actividades/Clarity/clarity-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+/*end actividades*/
+/*title-active*/
+#destino-id .row-md-1{
+  display: block;
+}
+#destino-id .row-md-2{
+  display: block;
+}
+#destino-id .active-experiences{
+  width: 100%;
+}
+#destino-id .active-experiences .head{
+  width: 100%;
+  height: 10%;
+}
+#destino-id .active-experiences .body{
+  width: 100%;
+  height: 85%;
+  text-align: center;
+}
+#destino-id .active-experiences .body .art{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+#destino-id .active-experiences .body .art .tall .box-actividad{
+    width: 100%;
+    height: 354px;
+    overflow: hidden;
+    background: black;
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    transition: all .3s ease-in-out;
+}
+#destino-id .active-experiences .body .art .tall .box-actividad .top-box{
+    width: 100%;
+    height: 354px;
+    background-size: cover;
+    background-position: center;
+}
+#destino-id .active-experiences .body .art .tall .box-actividad .top-box:hover{
+    -webkit-transform: perspective(1000px) translate3d(0,0,90px);
+    transform: perspective(1000px) translate3d(0,0,90px);
+    opacity: 0.5;
+    transition: all .3s ease-in-out;
+}
+#destino-id .active-experiences .body .art .art-1{
+    // background-image: url('../markahuasi.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*height: 68% !important;*/
+}
+#destino-id .active-experiences .body .art .art-2{
+    background-image: url('../bicicle.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .active-experiences .body .art .art-3{
+    background-image: url('../trekking.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .active-experiences .body .art .art-4{
+    background-image: url('../flaca.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*height: 68% !important;*/
+    height: 354px;
+}
+#destino-id .active-experiences .body .content{
+  width: 100%;
+  height: 100%;
+}
+#destino-id .active-experiences .body .content .row{
+  width: 100%;
+  height: 50%;
+  margin:1rem 0;
+}
+#destino-id .active-experiences .body .content .row .exp{
+  width: 100%;
+  text-align: center;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#destino-id .active-experiences .body .content .row .exp .experiencia{
+    width: 176px;
+    height: 282px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 1rem;
+}
+#destino-id .active-experiences .body .more{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: #ff480c;
+}
+#destino-id .active-experiences .head ul{
+  width: 100%;
+  text-align: center;
+  padding: 0 !important;
+}
+#destino-id .active-experiences .head ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-family: 'source sans pro';
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+#destino-id .active-experiences .head ul li.active{
+  color: #ff480c;
+}
+/* end title-active*/
+/*footer*/
+#destino-id .mankifooter{
+  width: 100%;
+  height: 50px;
+  background-color: #ebebeb;
+  display: table;
+  position: relative;
+}
+#destino-id .mankifooter .copy{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #505050;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  padding-left: 1rem;
+}
+#destino-id .mankifooter .manki{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 35px;
+    height: 35px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-image: url('../../logo-de-manki-orange.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#destino-id .mankifooter .log{
+  display: none;
+}
+
+/*Index id*/
+
 /*modals styles*/
 #index-id .trigger{
     color:#ff480c !important;
@@ -426,7 +1046,7 @@ html,body{
 }
 #index-id .full{
     width: 100%;
-    height: 100%;
+    height: 65%;
 }
 #index-id .full-width{
     width: 100%;
@@ -439,7 +1059,7 @@ html,body{
     background-color: black;
 }
 #index-id {
-    height: 65%;
+    /*height: 65%;*/
 }
 #index-id .section-mobile{
     display: none;
@@ -2755,145 +3375,145 @@ top: 0.25rem;
   }
   /*categories mobile*/
   #index-id .center{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
-        letter-spacing: 1.9px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 1.4rem;
-    }
-    #index-id .categories{
-        height: auto;
-    }
-    #index-id .categories .section{
-        display: none;
-    }
-    #index-id .section-mobile{
-        display: block;
-    }
-    #index-id .section-mobile .point{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1.9px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+  }
+  #index-id .categories{
+      height: auto;
+  }
+  #index-id .categories .section{
+      display: none;
+  }
+  #index-id .section-mobile{
+      display: block;
+  }
+  #index-id .section-mobile .point{
+    width: 100%;
+    height: 167px;
+    object-fit: contain;
+    position: relative;
+  }
+  #index-id .src1{
+      background-image:url('../../assets/destinos/arequipa/arequipa_2.jpg');
+      background-size: 100% 100%; 
+  }
+  #index-id .src2{
+      background-image:url('../../assets/landing/Landing-2.jpg');
+      background-size: 100% 100%; 
+  }
+  #index-id .src3{
+      background-image:url('../../assets/landing/Landing-3.jpg');
+      background-size: 100% 100%; 
+  }
+  #index-id .src4{
+      background-image:url('../../assets/landing/Landing-1.jpg');
+      background-size: 100% 100%; 
+  }
+  #index-id .src5{
+      background-image:url('../../assets/landing/Landing-5.jpg');
+      background-size: 100% 100%; 
+  }
+  #index-id .src6{
+      background-image:url('../../assets/landing/Landing-2.jpg');
+      background-size: 100% 100%; 
+  }
+  /*destino mobile*/
+  #index-id .text{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 1.4px;
+      text-align: center;
+      color: #ffffff;
+  }
+  #index-id .text-2{
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 2.5px;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
+  }
+  #index-id .destinos{
+      margin-top: 2rem;
       width: 100%;
-      height: 167px;
-      object-fit: contain;
+      /*height: 86%;*/
+      text-align: center;
+      max-height: 450px;
+  }
+  #index-id .destinos .art{
+      /*height: 260px;*/
+      width: 86%;
+  }
+  #index-id .destinos .art .slick-art{
+      height: 195px;
+  }
+  #index-id .destinos .art .art-1{
+      width: 130px !important;
+      margin: 0.55rem;
+      background-image: url('../../assets/index/lima.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
       position: relative;
-    }
-    #index-id .src1{
-        background-image:url('../../assets/destinos/arequipa/arequipa_2.jpg');
-        background-size: 100% 100%; 
-    }
-    #index-id .src2{
-        background-image:url('../../assets/landing/Landing-2.jpg');
-        background-size: 100% 100%; 
-    }
-    #index-id .src3{
-        background-image:url('../../assets/landing/Landing-3.jpg');
-        background-size: 100% 100%; 
-    }
-    #index-id .src4{
-        background-image:url('../../assets/landing/Landing-1.jpg');
-        background-size: 100% 100%; 
-    }
-    #index-id .src5{
-        background-image:url('../../assets/landing/Landing-5.jpg');
-        background-size: 100% 100%; 
-    }
-    #index-id .src6{
-        background-image:url('../../assets/landing/Landing-2.jpg');
-        background-size: 100% 100%; 
-    }
-    /*destino mobile*/
-    #index-id .text{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1rem;
-        letter-spacing: 1.4px;
-        text-align: center;
-        color: #ffffff;
-    }
-    #index-id .text-2{
-        text-transform: uppercase;
-        font-family: 'Source Sans Pro', sans-serif;
-        display: block;
-        font-size: 1.2rem;
-        font-weight: 300;
-        letter-spacing: 2.5px;
-        text-align: center;
-        color: #ffffff;
-        text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
-    }
-    #index-id .destinos{
-        margin-top: 2rem;
-        width: 100%;
-        /*height: 86%;*/
-        text-align: center;
-        max-height: 450px;
-    }
-    #index-id .destinos .art{
-        /*height: 260px;*/
-        width: 86%;
-    }
-    #index-id .destinos .art .slick-art{
-        height: 195px;
-    }
-    #index-id .destinos .art .art-1{
-        width: 130px !important;
-        margin: 0.55rem;
-        background-image: url('../../assets/index/lima.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    #index-id .destinos .art .art-2{
-        width: 130px !important;
-        margin: 0.55rem;
-        background-image: url('../../assets/index/ica.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #index-id .destinos .art .art-3{
-        width: 130px !important;
-        margin: 0.55rem;
-        background-image: url('../../assets/index/cusco.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #index-id .destinos .art .art-4{
-        width: 130px !important;
-        margin: 0.55rem;
-        background-image: url('../../assets/index/junin.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #index-id .destinos .group .content{
-        font-family: "Source Sans Pro", sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        width: 85%;
-        display: inline-block;
-        line-height: 1.33;
-        letter-spacing: 0.8px;
-        text-align: center;
-        color: rgb(80, 80, 80);
-        margin-top: 0;
-    }
-    #index-id .destinos .group .title{
-        font-size: 1.6rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        line-height: 1;
-        letter-spacing: 3px;
-        text-align: center;
-        color: #303030;
-        margin: 1rem 0;
-    }
+  }
+  #index-id .destinos .art .art-2{
+      width: 130px !important;
+      margin: 0.55rem;
+      background-image: url('../../assets/index/ica.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+  #index-id .destinos .art .art-3{
+      width: 130px !important;
+      margin: 0.55rem;
+      background-image: url('../../assets/index/cusco.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+  #index-id .destinos .art .art-4{
+      width: 130px !important;
+      margin: 0.55rem;
+      background-image: url('../../assets/index/junin.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+  #index-id .destinos .group .content{
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 300;
+      width: 85%;
+      display: inline-block;
+      line-height: 1.33;
+      letter-spacing: 0.8px;
+      text-align: center;
+      color: rgb(80, 80, 80);
+      margin-top: 0;
+  }
+  #index-id .destinos .group .title{
+      font-size: 1.6rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      line-height: 1;
+      letter-spacing: 3px;
+      text-align: center;
+      color: #303030;
+      margin: 1rem 0;
+  }
     /*actividades mobile*/
       #index-id .actividades .art{
       margin-top: 5rem;
@@ -3012,6 +3632,262 @@ top: 0.25rem;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+    /*destinos*/
+#destino-id .banner .container-banner{
+    width: 80%;
+    background-image: url(b../anner.png);
+    height: 375px;
+    display: inline-block;
+    position: relative;
+    background-size: 100% 100%;
+}
+#destino-id .container .mouse{
+    display: none;
+}
+#destino-id .cabeza{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+  }
+#destino-id .cabeza nav{
+
+  }
+ #destino-id .cabeza nav ul{
+    border-bottom: 0;
+    height: 58px;
+    margin: 0px 1rem;
+    font-size: 0;
+    padding: 0;
+  }
+ #destino-id .cabeza nav ul li{
+    list-style: none;
+    display: none;
+    vertical-align: top;
+    position: relative;
+    top: 16px;
+    font-size:16px;
+    color: #303030;
+    padding: 0px 3rem; 
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+ #destino-id .cabeza nav ul li.menu{
+    display: inline-block;
+    top: 0;
+    padding: 0;
+  }
+ #destino-id .cabeza nav ul li.menu img {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0.3rem;
+  }
+ #destino-id .cabeza nav ul li.left{
+    display: inline-block;
+    float: left;
+    top: 0 !important;
+    padding: 0;
+    text-transform: uppercase;
+  }
+ #destino-id .cabeza nav ul li.left img{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0.3rem;
+  }
+ #destino-id .cabeza nav ul li.right{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    color:#ff480c;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+/*actividades*/
+#destino-id .actividades{
+        height: auto;
+        margin-top: 3rem;
+    }
+   #destino-id .actividades .group .title{
+        width: 80%;
+        margin-bottom: 1rem;
+        display: inline-block;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 1;
+        color: #303030;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+   #destino-id .actividades .group .content{
+        width: 85%;
+        display: inline-block;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 1.33;
+        letter-spacing: .5px;
+        color: #505050;
+        text-align: center;
+        margin-bottom: 0;
+    }
+   #destino-id .actividades .art{
+        margin-top: 5rem;
+        width: 75%;
+        /*height: 520px;*/
+        display:inline-block;
+    }
+   #destino-id .tall{
+        width: 130px !important;
+        margin-bottom: 7rem !important;
+        margin: 0.55rem;
+        display: inline-block;
+        height: 325px;
+        position: relative;
+        /* background-image: url(/../static/img/cusco.f1f6d5a.png); */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+   #destino-id .tall .author-content{
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        bottom: 4rem;
+        margin: 0.1rem;
+        display: block;
+    }
+   #destino-id .tall .author-content .author{
+        width: 35%;
+        height: 75%;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        position: relative;
+        left: -0;
+    }
+   #destino-id .avatar{
+        background-image: url('../assets/destinos/avatar/avatar-4.png');
+    }
+   #destino-id .avatar-2{
+        background-image: url('../assets/destinos/avatar/avatar-1.png');
+    }
+   #destino-id .avatar-3{
+        background-image: url('../assets/destinos/avatar/avatar-2.png');        
+    }
+   #destino-id .avatar-4{
+        background-image: url('../assets/destinos/avatar/avatar-3.png');        
+    }
+   #destino-id .tall .author-content .author-text{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+   #destino-id .tall .author-content .author-text .title{
+        margin-top: 0;
+        font-weight: 800;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.9rem;
+        line-height: 2.26;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #303030;
+    }
+   #destino-id .tall .author-content .author-text .cont{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 300;
+        line-height: 1.47;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: #303030;
+        width: 89%;
+        display: inline-block;
+    }
+   #destino-id .tall .author-content .author{
+        display: inline-block;
+    }
+    #destino-id .tall .author-content .author-text{
+        display: block;
+    }
+    #destino-id .actividades .art .art-1{
+        width: 100%;
+        margin: 0.55rem;
+        display: inline-block;
+        height: 195px !important;
+        position: relative;
+        background-image: url('../markahuasi.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #destino-id .actividades .art .art-2{
+        width: 100%;
+        margin: 0.55rem;
+        display: inline-block;
+        height: 195px !important;
+        position: relative;
+        background-image: url('../bicicle.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #destino-id .actividades .art .art-3{
+        width: 100%;
+        margin: 0.55rem;
+        display: inline-block;
+        height: 195px !important;
+        position: relative;
+        background-image: url('../trekking.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #destino-id .actividades .art .art-4{
+        width: 100%;
+        margin: 0.55rem;
+        display: inline-block;
+        height: 195px !important;
+        position: relative;
+        background-image: url('../flaca.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+  /*end actividades*/
+  /*footer*/
+  #destino-id .mankifooter{
+      width: 100%;
+      height: 50px;
+      background-color: #ebebeb;
+      display: table;
+      position: relative;
+    }
+    #destino-id .mankifooter .copy{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 300;
+      display: block;
+      letter-spacing: 1.2px;
+      text-align: center;
+      color: #505050;
+      width: 100%;
+      padding-left: 0;
+    }
+    #destino-id .mankifooter .manki{
+      display: none;
+    }
+    #destino-id .mankifooter .log{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    #destino-id .mankifooter .log img{
+      width: 35px;
+      height: 35px;
+    }
+
     /*experiences*/
     #experience-id .mankifooter{
     width: 100%;
@@ -3256,873 +4132,6 @@ top: 0.25rem;
     color:#ff480c;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
-  }
-  #destino-id .slick-list{
-    height: 100% !important;
-}
-#destino-id .slick-track{
-    height: 100%;
-    /*width: 850px !important;*/
-}
-#destino-id .nav-white{
-    background-color: white;
-    -webkit-transition: background .8s ease-in-out;
-    -moz-transition: background .8s ease-in-out;
-    -ms-transition: background .8s ease-in-out;
-    -o-transition: background .8s ease-in-out;
-    transition: background .8s ease-in-out;
-    }
-  #destino-id .banner{
-    margin-top: 1rem;
-    width: 100%;
-    text-align: center;
-  }
-  #destino-id .banner .container-banner{
-    width: 100%;
-    background-image: url('../assets/destinos/banner.png');
-    height: 504px;
-    display: inline-block;
-    position: relative;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-  }
-  #destino-id .banner .container-banner .text{
-    position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      color: #f2e0d7;
-      letter-spacing: .5px;
-        font-family: 'source sans pro';
-        font-size: 1.5rem;
-        font-weight: 300;
-  }
-    #destino-id .banner .container-banner .text .title{
-        display: block;
-        text-transform: uppercase;
-        font-weight: 300;
-        letter-spacing: .5px;
-        font-family: 'source sans pro';
-        font-size: 2rem;
-    }    
-  /*section text*/
-  #destino-id .sectiontext{
-    text-align: center;
-    width: 100%;
-    margin: 5rem 0;
-    display: block;
-  }
-  #destino-id .sectiontext div{
-      width: 80%;
-      margin-bottom: 1rem;
-      display: inline-block;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 20px;
-      font-weight: 300;
-      letter-spacing: .5px;
-      line-height: 0.67;
-      color: #303030;
-      text-transform: uppercase;
-      font-size: 1.25rem;
-  }
-  #destino-id .sectiontext span{
-      width: 60%;
-      display: inline-block;
-      height: 35px;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1rem;
-      font-weight: 200;
-      line-height: 1.33;
-      letter-spacing: .5px;
-      color: #505050;
-      text-align: center;
-  }
-  /*end section text*/
- #destino-id .cabeza{
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    z-index: 2;
-    -webkit-transition: background .4s ease-in-out;
-    -moz-transition: background .4s ease-in-out;
-    -ms-transition: background .4s ease-in-out;
-    -o-transition: background .4s ease-in-out;
-    transition: background .4s ease-in-out;
-  }
-  #destino-id .cabeza nav{
-    min-height: 58px;
-  }
-  #destino-id .cabeza nav ul{
-    border-bottom: .5px solid rgba(225,225,225,.5);
-    height: 75px;
-    margin: 0px 40px;
-    font-size: 0;
-    padding: 0;
-    -webkit-background-clip: padding-box; 
-    background-clip: padding-box; 
-  }
-  #destino-id .black{
-    color:#303030 !important;
-    -webkit-transition: color .4s ease;
-    -moz-transition: color .4s ease;
-    -ms-transition: color .4s ease;
-    -o-transition: color .4s ease;
-    transition: color .4s ease;
-  }
- #destino-id .cabeza nav ul li{
-    list-style: none;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 30px;
-    font-size: 16px;
-    font-weight: 100;
-    color: #303030;
-    letter-spacing: 1.2px;
-    padding: 0px 3rem;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    cursor: pointer;
-  }
-  #destino-id .cabeza nav ul li a{
-    text-decoration: none;
-    /*color: #303030;*/
-    color:white;
-  }
-  #destino-id .cabeza nav ul li.menu{
-    display: none;
-  }
-  #destino-id .cabeza nav ul li.left{
-    float: left;
-    top: 12px !important;
-    padding: 0;
-    text-transform: uppercase;
-  }
- #destino-id .cabeza nav ul li.left img{
-    width: 3rem;
-    margin: 5px;
-    height: 3rem;
-    margin-left: -0.2rem;
-  }
- #destino-id .cabeza nav ul li.right{
-    float: right;
-    padding: 0;
-    color:#ff480c;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: normal !important;
-  }
-   #destino-id .manki-name{
-    font-weight: 600;
-    line-height: 1.43;
-    letter-spacing: 1.4px;
-    color: #ff480c !important;
-    font-family: 'Source Sans Pro', sans-serif;
-    float: left;
-    text-transform: uppercase;
-    padding: 0 !important;
-    font-weight: normal !important;
-  }
- #destino-id .manki-name a{
-    text-decoration: none;
-    color: #ff480c !important;
-  }
-  /*container*/
-#destino-id #b1{
-  background-image: url("../destino/background.png");
-}
-#destino-id #b2{
-  background-image: url("../destino/cusco.png");
-}
-#destino-id #b3{
-  background-image: url("../destino/background.png");
-}
-#destino-id #b4{
-  background-image: url("../destino/cusco.png");
-}
-#destino-id .background{
-  height: 100% !important;
-  width: 100% !important;
-  transition: left 0.8s;
-  position: relative;
-  left: 0%;
-  /*overflow-x: hidden;*/
-  white-space: nowrap;
-}
-#destino-id .background .content{
-    position: relative;
-    height:100%;
-    width: 100% !important;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    background-repeat: no-repeat;
-    margin-right: -4px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#destino-id .container{
-    width: 100%;
-    height: 70%;
-    position: relative;
-    overflow:hidden;
-}
-#destino-id .container .title{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-}
-#destino-id .container .title h1{
-    color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    margin: .2rem;
-}
-#destino-id .container .title h2{
-    color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    margin: .2rem;
-}
-#destino-id .container .group{
-    display: none;
-}
-#destino-id .container .mouse{
-    display: none;
-    text-align: center;
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-    left: 50%;
-    bottom: 1rem;
-    background-image: url('../../mouse.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transition: bottom 0.8s;
-}
-#destino-id .bottom{
-  bottom: 1.5rem !important;
-  transition: left 0.8s;
-}
- /*end container */
-/*actividades*/
-#destino-id .actividad-slick .tall{
-    min-height: 315px;
-}
-#destino-id .tall{
-    margin: 0.2rem;
-    display: inline-block;
-    height: 100%;
-    position: relative;
-    /*bottom: 7rem;*/
-    /*width: 193px !important;*/
-    vertical-align: top;
-    width: 24%;
-    max-width: 250px;
-    margin: 0.55rem;
-}
-#destino-id .tall .author-content{
-    width: 100%;
-    height: 32%;
-    position: absolute;
-    display: block;
-    bottom: 0.5rem;
-}
-#destino-id .body .art .tall .author-content{
-    bottom: 2.5rem;
-}
-#destino-id .tall .author-content .author{
-    width: 32%;
-    height: 50%;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: inline-block;
-    position: relative;
-    /*left: -0.4rem;*/
-}
-   #destino-id .avatar{
-        background-image: url('../assets/destinos/avatar/avatar-4.png');
-    }
-   #destino-id .avatar-2{
-        background-image: url('../assets/destinos/avatar/avatar-1.png');
-    }
-   #destino-id .avatar-3{
-        background-image: url('../assets/destinos/avatar/avatar-2.png');        
-    }
-   #destino-id .avatar-4{
-        background-image: url('../assets/destinos/avatar/avatar-3.png');        
-    }
-#destino-id .tall .author-content .author-text{
-    width: 70%;
-    height: 50%;
-    display: inline-block;
-    vertical-align: top;
-}
-#destino-id .tall .author-content .author-text .title{
-    /* margin-top: 2.5rem; */
-    font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    line-height: 2.26;
-    letter-spacing: .5px;
-    text-align: center;
-    top: -0.5rem;
-    position: relative;
-    color: #303030;
-}
-#destino-id .tall .author-content .author-text .cont{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 300;
-    position: relative;
-    line-height: 1.37;
-    letter-spacing: .9px;
-    text-align: center;
-    color: #303030;
-    top: -0.7rem;
-}
-#destino-id .text-2{
-    font-family: 'Source Sans Pro', sans-serif;
-    display: block;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 2.5px;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
-}
-#destino-id .text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 1.4px;
-    text-align: center;
-    color: #ffffff;
-}
-#destino-id .actividades{
-    margin-top: 6rem;
-    width: 100%;
-    text-align: center;
-    /*height: 100%;*/
-}
-#destino-id .actividades .group{
-    width:100%;
-}
-#destino-id .actividades .group .title{
-    width: 80%;
-    margin-bottom: 1rem;
-    display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: .5px;
-    line-height: 0.67;
-    color: #303030;
-    text-transform: uppercase;
-    font-size: 1.25rem;
-}
-#destino-id .actividades .group .content{
-    width: 60%;
-    display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    font-weight: 200;
-    line-height: 1.33;
-    letter-spacing: .5px;
-    color: #505050;
-    text-align: center;
-    margin-bottom: 5rem;
-}
-#destino-id .actividades .art{
-    width: 100%;
-    height: 471px;
-    display: inline-block;
-
-}
-#destino-id .actividades .art .box-art{
-    width: 100%;
-    height: 354px;
-    overflow:hidden;
-    opacity: 1;
-    transition: all .3s ease-in-out;
-    background: black;
-}
-#destino-id .actividades .art .box-art .top-actividades{
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-}
-#destino-id .actividades .art .box-art .top-actividades:hover{
-    opacity: 0.5;
-    -webkit-transform: perspective(1000px) translate3d(0,0,90px);
-    transform: perspective(1000px) translate3d(0,0,90px);
-    transition: all .3s ease-in-out;
-}
-#destino-id .actividades .art .art-1{
-    background-image: url('../../../assets/actividades/Clarity/clarity-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .actividades .art .art-2{
-    background-image: url('../../../assets/actividades/Clarity/clarity-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .actividades .art .art-3{
-    background-image: url('../../../assets/actividades/Clarity/clarity-3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .actividades .art .art-4{
-    background-image: url('../../../assets/actividades/Clarity/clarity-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-/*end actividades*/
-/*title-active*/
-#destino-id .row-md-1{
-  display: block;
-}
-#destino-id .row-md-2{
-  display: block;
-}
-#destino-id .active-experiences{
-  width: 100%;
-}
-#destino-id .active-experiences .head{
-  width: 100%;
-  height: 10%;
-}
-#destino-id .active-experiences .body{
-  width: 100%;
-  height: 85%;
-  text-align: center;
-}
-#destino-id .active-experiences .body .art{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    text-align: center;
-}
-#destino-id .active-experiences .body .art .tall .box-actividad{
-    width: 100%;
-    height: 354px;
-    overflow: hidden;
-    background: black;
-    opacity: 1;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    transition: all .3s ease-in-out;
-}
-#destino-id .active-experiences .body .art .tall .box-actividad .top-box{
-    width: 100%;
-    height: 354px;
-    background-size: cover;
-    background-position: center;
-}
-#destino-id .active-experiences .body .art .tall .box-actividad .top-box:hover{
-    -webkit-transform: perspective(1000px) translate3d(0,0,90px);
-    transform: perspective(1000px) translate3d(0,0,90px);
-    opacity: 0.5;
-    transition: all .3s ease-in-out;
-}
-#destino-id .active-experiences .body .art .art-1{
-    // background-image: url('../markahuasi.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*height: 68% !important;*/
-}
-#destino-id .active-experiences .body .art .art-2{
-    background-image: url('../bicicle.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .active-experiences .body .art .art-3{
-    background-image: url('../trekking.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .active-experiences .body .art .art-4{
-    background-image: url('../flaca.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*height: 68% !important;*/
-    height: 354px;
-}
-#destino-id .active-experiences .body .content{
-  width: 100%;
-  height: 100%;
-}
-#destino-id .active-experiences .body .content .row{
-  width: 100%;
-  height: 50%;
-  margin:1rem 0;
-}
-#destino-id .active-experiences .body .content .row .exp{
-  width: 100%;
-  text-align: center;
-  height: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#destino-id .active-experiences .body .content .row .exp .experiencia{
-    width: 176px;
-    height: 282px;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 0 1rem;
-}
-#destino-id .active-experiences .body .more{
-    width: 100%;
-    height: 10%;
-    text-align: center;
-    color: #ff480c;
-}
-#destino-id .active-experiences .head ul{
-  width: 100%;
-  text-align: center;
-  padding: 0 !important;
-}
-#destino-id .active-experiences .head ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 1rem;
-    cursor: pointer;
-    font-family: 'source sans pro';
-    font-weight: 300;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: .9rem;
-}
-#destino-id .active-experiences .head ul li.active{
-  color: #ff480c;
-}
-/* end title-active*/
-/*footer*/
-#destino-id .mankifooter{
-  width: 100%;
-  height: 50px;
-  background-color: #ebebeb;
-  display: table;
-  position: relative;
-}
-#destino-id .mankifooter .copy{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 300;
-  letter-spacing: 1.2px;
-  text-align: left;
-  color: #505050;
-  display: table-cell;
-  width: 30%;
-  vertical-align: middle;
-  padding-left: 1rem;
-}
-#destino-id .mankifooter .manki{
-  position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 35px;
-    height: 35px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    background-image: url('../../logo-de-manki-orange.svg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-#destino-id .mankifooter .log{
-  display: none;
-}
-#destino-id .banner .container-banner{
-    width: 80%;
-    background-image: url(b../anner.png);
-    height: 375px;
-    display: inline-block;
-    position: relative;
-    background-size: 100% 100%;
-}
-#destino-id .container .mouse{
-    display: none;
-}
-#destino-id .cabeza{
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    z-index: 2;
-    top: 0;
-  }
-#destino-id .cabeza nav{
-
-  }
- #destino-id .cabeza nav ul{
-    border-bottom: 0;
-    height: 58px;
-    margin: 0px 1rem;
-    font-size: 0;
-    padding: 0;
-  }
- #destino-id .cabeza nav ul li{
-    list-style: none;
-    display: none;
-    vertical-align: top;
-    position: relative;
-    top: 16px;
-    font-size:16px;
-    color: #303030;
-    padding: 0px 3rem; 
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
- #destino-id .cabeza nav ul li.menu{
-    display: inline-block;
-    top: 0;
-    padding: 0;
-  }
- #destino-id .cabeza nav ul li.menu img {
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    top: 0.3rem;
-  }
- #destino-id .cabeza nav ul li.left{
-    display: inline-block;
-    float: left;
-    top: 0 !important;
-    padding: 0;
-    text-transform: uppercase;
-  }
- #destino-id .cabeza nav ul li.left img{
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    top: 0.3rem;
-  }
- #destino-id .cabeza nav ul li.right{
-    display: inline-block;
-    float: right;
-    padding: 0;
-    color:#ff480c;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-/*actividades*/
-#destino-id .actividades{
-        height: auto;
-        margin-top: 3rem;
-    }
-   #destino-id .actividades .group .title{
-        width: 80%;
-        margin-bottom: 1rem;
-        display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        letter-spacing: 3px;
-        line-height: 1;
-        color: #303030;
-        text-transform: uppercase;
-        font-size: 1.8rem;
-    }
-   #destino-id .actividades .group .content{
-        width: 85%;
-        display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        line-height: 1.33;
-        letter-spacing: .5px;
-        color: #505050;
-        text-align: center;
-        margin-bottom: 0;
-    }
-   #destino-id .actividades .art{
-        margin-top: 5rem;
-        width: 75%;
-        /*height: 520px;*/
-        display:inline-block;
-    }
-   #destino-id .tall{
-        width: 130px !important;
-        margin-bottom: 7rem !important;
-        margin: 0.55rem;
-        display: inline-block;
-        height: 325px;
-        position: relative;
-        /* background-image: url(/../static/img/cusco.f1f6d5a.png); */
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-   #destino-id .tall .author-content{
-        width: 100%;
-        height: 30%;
-        position: absolute;
-        bottom: 4rem;
-        margin: 0.1rem;
-        display: block;
-    }
-   #destino-id .tall .author-content .author{
-        width: 35%;
-        height: 75%;
-        border-radius: 50%;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        display: inline-block;
-        position: relative;
-        left: -0;
-    }
-   #destino-id .avatar{
-        background-image: url('../assets/destinos/avatar/avatar-4.png');
-    }
-   #destino-id .avatar-2{
-        background-image: url('../assets/destinos/avatar/avatar-1.png');
-    }
-   #destino-id .avatar-3{
-        background-image: url('../assets/destinos/avatar/avatar-2.png');        
-    }
-   #destino-id .avatar-4{
-        background-image: url('../assets/destinos/avatar/avatar-3.png');        
-    }
-   #destino-id .tall .author-content .author-text{
-        width: 100%;
-        height: 100%;
-        display: inline-block;
-        vertical-align: top;
-    }
-   #destino-id .tall .author-content .author-text .title{
-        margin-top: 0;
-        font-weight: 800;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 0.9rem;
-        line-height: 2.26;
-        letter-spacing: 1px;
-        text-align: center;
-        color: #303030;
-    }
-   #destino-id .tall .author-content .author-text .cont{
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 0.6rem;
-        font-weight: 300;
-        line-height: 1.47;
-        letter-spacing: 0.8px;
-        text-align: center;
-        color: #303030;
-        width: 89%;
-        display: inline-block;
-    }
-   #destino-id .tall .author-content .author{
-        display: inline-block;
-    }
-    #destino-id .tall .author-content .author-text{
-        display: block;
-    }
-    #destino-id .actividades .art .art-1{
-        width: 100%;
-        margin: 0.55rem;
-        display: inline-block;
-        height: 195px !important;
-        position: relative;
-        background-image: url('../markahuasi.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #destino-id .actividades .art .art-2{
-        width: 100%;
-        margin: 0.55rem;
-        display: inline-block;
-        height: 195px !important;
-        position: relative;
-        background-image: url('../bicicle.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #destino-id .actividades .art .art-3{
-        width: 100%;
-        margin: 0.55rem;
-        display: inline-block;
-        height: 195px !important;
-        position: relative;
-        background-image: url('../trekking.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    #destino-id .actividades .art .art-4{
-        width: 100%;
-        margin: 0.55rem;
-        display: inline-block;
-        height: 195px !important;
-        position: relative;
-        background-image: url('../flaca.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-/*end actividades*/
-/*footer*/
-#destino-id .mankifooter{
-    width: 100%;
-    height: 50px;
-    background-color: #ebebeb;
-    display: table;
-    position: relative;
-  }
-  #destino-id .mankifooter .copy{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 300;
-    display: block;
-    letter-spacing: 1.2px;
-    text-align: center;
-    color: #505050;
-    width: 100%;
-    padding-left: 0;
-  }
-  #destino-id .mankifooter .manki{
-    display: none;
-  }
-  #destino-id .mankifooter .log{
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  #destino-id .mankifooter .log img{
-    width: 35px;
-    height: 35px;
   }
   #actividad-id  .fix{
         position: fixed;
